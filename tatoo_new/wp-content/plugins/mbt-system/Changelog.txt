@@ -1,0 +1,69 @@
+
+
+-------------------------------------------
+wp-login.php
+Changed all instances:
+
+From:
+<a href="<?php echo esc_url( wp_lostpassword_url() ); ?>" title="<?php esc_attr_e( 'Password Lost and Found' ) ?>"><?php _e( 'Lost your password?' ); ?></a>
+
+To:
+<a href="<?php echo esc_url( wp_lostpassword_url() ); ?>" title="<?php esc_attr_e( 'Password Lost and Found' ) ?>"><?php _e( 'Password help?' ); ?></a>
+
+
+Changed
+From:
+	<p>
+		<label for="user_login"><?php _e('Username') ?><br />
+		<input type="text" name="log" id="user_login" class="input" value="<?php echo esc_attr($user_login); ?>" size="20" /></label>
+	</p>
+	<p>
+		<label for="user_pass"><?php _e('Password') ?><br />
+		<input type="password" name="pwd" id="user_pass" class="input" value="" size="20" /></label>
+	</p>
+
+To:
+	<div class="login_form_container">
+		<p>
+			<input type="text" name="log" id="user_login" class="input" value="<?php echo esc_attr($user_login); ?>" size="20" placeholder="<?php _e('Username'); ?>" /></label>
+		</p>
+		<p>
+			<input type="password" name="pwd" id="user_pass" class="input" value="" size="20" placeholder="<?php _e('Password'); ?>" /></label>
+		</p>
+	</div>
+
+
+Line 99:
+Changed
+From: 
+	<h1><a href="<?php echo esc_url( $login_header_url ); ?>" title="<?php echo esc_attr( $login_header_title ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
+
+To: 
+	do_action('mbt_login_heading');
+
+Line 436:
+From:
+	<p>
+		<label for="user_login" ><?php _e('Username or E-mail:') ?><br />
+		<input type="text" name="user_login" id="user_login" class="input" value="<?php echo esc_attr($user_login); ?>" size="20" /></label>
+	</p>
+
+To:
+	<div class="login_form_container">
+		<p>
+			<input type="text" name="user_login" id="user_login" class="input" value="<?php echo esc_attr($user_login); ?>" size="20" placeholder="<?php _e('Username or E-mail') ?>" /></label>
+		</p>
+	</div>
+
+
+Removed lines
+<a href="<?php echo esc_url( site_url( 'wp-login.php?action=register', 'login' ) ); ?>"><?php _e( 'Register' ); ?></a>
+
+Added line 702:
+	<?php do_action('mbt_after_login_form'); ?>
+
+
+Removed lines
+	<label for="pass1"><?php _e('New password') ?><br />
+
+	<label for="pass2"><?php _e('Confirm new password') ?><br />

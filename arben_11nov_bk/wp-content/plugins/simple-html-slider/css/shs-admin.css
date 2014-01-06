@@ -1,0 +1,143 @@
+/*-- SHS Admin Style
+--------------------------------*/
+.shs_admin_wrapper{
+	width:703px;
+}
+
+.shs_admin_wrapper table td{
+	padding:10px 0px
+}
+
+.shs_admin_wrapper table td:first-child{
+	font-weight:bold;
+	width:150px;
+}
+
+.shs_admin_wrapper table td input[type="text"],
+.shs_admin_wrapper table td select{
+	width:100px;
+}
+
+.shs_admin_wrapper  .shs_add,
+.shs_admin_wrapper  .shs_del{
+    background: url("../images/add.png") repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 32px;
+    text-indent: -9999px;
+    width: 32px;
+	position: relative;
+	left: 5px;
+    top: -7px;
+}
+.shs_admin_wrapper .shs_del{
+    background: url("../images/del.png") repeat scroll 0 0 transparent;
+}
+
+.shs_iframe{
+	padding:4px;
+	border:1px solid #ccc;
+}	
+
+.shs_shortinfo{
+    background: none repeat scroll 0 0 #D9EDFC;
+    border: 1px solid #AACBE2;
+    border-radius: 2px 2px 2px 2px;
+    font-family: fantasy;
+    font-size: 11px;
+    line-height: 22px;
+    padding: 10px;
+	font-weight:normal;
+	color: #555555;
+}
+
+.shs_admin_wrapper #joptions li{
+	border: 1px dotted #fff;
+	padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+	transition: background-color .5s linear 0s;
+	transition: border-color .5s linear 0s;
+}
+
+.shs_admin_wrapper #joptions li textarea{
+	width:89% !important;
+}
+
+.shs_admin_wrapper #joptions li:hover{
+    background-color: #FFFFE0;
+	border: 1px dashed #E6DB55;
+	transition: background-color .5s linear 0s;
+	transition: border-color .5s linear 0s;
+}
+
+/*-- Banner Style
+--------------------------------*/
+.shs_banner_wrapper #wp_banner{
+    background: url("../images/banner.jpg") no-repeat scroll center center transparent;
+    border: 1px solid #CCCCCC;
+    height: 131px;
+    padding: 3px;
+    width: 696px;
+	margin-top:10px;
+}
+
+.shs_banner_wrapper #wp_banner #mc-embedded-subscribe-form{
+    margin: 0 0 0 176px;
+    padding: 0;
+}
+
+.shs_banner_wrapper #wp_banner #mc_embed_signup .mc-field-group{
+    min-height: 45px;
+    padding-bottom: 0;
+    width: 100%;
+}
+
+.shs_banner_wrapper #wp_banner #mc_embed_signup .mc-field-group input[type='email']{
+	background: none repeat scroll 0 0 transparent;
+	border: 0 none;
+	color: #777777;
+	display: block;
+	float: left;
+	font-family: verdana;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 6px;
+	padding: 8px 0;
+	text-indent: 2%;
+	width: 68%;
+}
+.shs_banner_wrapper #wp_banner #mc_embed_signup .mc-field-group input[type='submit']{
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    clear: none;
+    float: left;
+    margin: 6px 0 0 8px;
+    width: 27%;
+}
+
+.shs_banner_wrapper #wp_banner .bot_section{
+	width:100%;
+	height:86px;
+}
+
+.shs_banner_wrapper #wp_banner .bot_section a{
+	float:left;
+	display:block;
+	width:45px;
+	height:45px;
+	margin-top: 15px;
+	outline:none;
+}
+
+.shs_banner_wrapper #wp_banner .bot_section a.wplogo{
+    height: 70px;
+    margin-left: 271px;
+    width: 150px;
+}
+.shs_banner_wrapper #wp_banner .bot_section a.fbicon{
+    margin-left: 138px;
+}
+.shs_banner_wrapper #wp_banner .bot_section a.twicon{
+	margin-left:15px;
+}

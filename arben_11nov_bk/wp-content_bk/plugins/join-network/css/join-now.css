@@ -1,0 +1,10 @@
+/* error css  start here */
+label.error {
+    color: red;
+    display: block;
+    float: left;
+    padding-left: 0;
+    vertical-align: top;
+    text-transform: capitalize;
+}
+/* error css  end here */

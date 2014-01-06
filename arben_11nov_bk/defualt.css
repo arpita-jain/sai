@@ -1,0 +1,1273 @@
+#featured_slider{width:95.6%!important; padding-bottom: 10px;}
+#featured_slider ul{width:94.8%!important;}
+#featured_slider ul li{width:97%!important;}
+
+#featured_slider .content_left{width:70%;}/*--------on 1-30-13 changes 55 to 65--------*/
+#featured_slider {
+float: left;
+
+margin: 0px 0px;
+position: relative;
+
+
+width: auto;
+}
+
+#featured_slider ul, #featured_slider ul li {
+list-style: none !important;
+border: none !important;
+float: left;
+margin:11px 3px 0 21px;
+width: 95.6% !important;
+height: auto;
+}
+
+#featured_slider .img_right {
+float: right;
+width:100px;
+height: 100px;
+margin-right: 15px;
+}
+
+#featured_slider .img_right img {
+/*width: 70px;
+height: 70px;*/ /*--------on 1-30-13 changes--------*/
+}
+#featured_slider .content_left h2{ margin-bottom:11px!important;}
+#featured_slider .content_left {
+float: left;
+color: #707070;
+width: autopx;
+ font-size:14px;}
+
+#featured_slider .content_left p {
+line-height: 22px !important;
+color: #707070;
+}
+
+#featured_slider .content_left h2 {
+font-size: 20px !important;
+margin-bottom: 20px;
+}
+
+#featured_slider .feat_prev {
+background: transparent url(../images/sprite.png) no-repeat;
+background-position: 0px 0px;
+bottom: 39%;
+cursor: pointer;
+float: left;
+height: 16px;
+left: 0%;
+position: absolute;
+width: 17px;
+z-index: 10;
+}
+
+
+#featured_slider .feat_prev:hover {
+background-position: 0px -16px;
+}
+
+#featured_slider .feat_next {
+background: transparent url(../images/sprite.png) no-repeat;
+background-position: -17px 0px;
+bottom: 39%;
+cursor: pointer;
+height: 16px;
+position: absolute;
+right: 0%;
+width: 17px;
+z-index: 10;
+}
+
+#featured_slider .feat_next:hover {
+background-position: -18px -16px;
+}
+.top_s2 #featured_slider .feat_next {
+background: transparent url(../images/sprite2.png) no-repeat -20px ;
+height:27px;
+}
+
+.top_s2 #featured_slider .feat_prev {
+background: transparent url(../images/sprite2.png) no-repeat;
+height:27px;
+}
+.constructionmates_slider {
+font-size: 10px;
+float: right;
+clear: both;
+position: relative;
+top: -10px;
+background-color: #CCC;
+padding: 3px 3px;
+line-height: 10px !important;
+}
+
+/*----------1-10-13 css S----------*/
+
+
+#featured_slider .img_right{margin-left:0px !important;}
+#featured_slider a{ font-size:16px !important;}
+#featured_slider{ margin:0px !important; background:none !important; border:none !important;}
+#featured_slider{width:100% !important; }
+#slider{ margin-top:0px !important; height:88px !important;}
+#featured_slider .img_right{ width:75px !important; height:auto !important;}
+
+#featured_slider .img_right img{ height:auto !important; border:none !important; }
+#featured_slider .content_left{ height:84px !important; overflow:hidden;}
+#featured_slider ul, #featured_slider ul li{ margin:4px 13px !important;}
+/*@media (max-width : 320px)  {
+#featured_slider .img_right{ width:65px !important}
+#featured_slider .content_left{width:70%;}
+}
+@media (max-width : 240px)  {
+	#featured_slider .img_right{ width:55px !important;}
+	#featured_slider .content_left{ width:60% !important;}
+	#featured_slider a{ font-size:14px !important;}
+	#featured_slider ul, li{ margin:0px 15px !important;}
+	
+	
+}
+
+@media (max-width :480px)  {
+	#featured_slider .content_left{width:78%;}
+}
+@media (max-width :360px)  {
+	#featured_slider .content_left{width:70%;}
+	.new_imgbox{ width:20%;}
+	
+	
+}
+@media (max-width :320px) {
+	.tab_2list li .span2{ padding:0px 10px 0px 0px;}
+	}
+@media (max-width :240px)  {
+ ul.tabs li#tab1{ margin:0px 8px 0px 0px !important; padding:8px; font-size:12px; }
+ul.tabs li#tab2{ margin:0px !important; padding:8px; font-size:12px;}
+.buttons_list li{ width:43%;}
+#featured_slider ul, li{ margin:0px 5px !important;}
+#featured_slider .content_left{ margin:0px 5px !important;}
+.footer{ font-size:9px;}
+.footer a{ padding:0px;}
+.logo img{ width:95%;}
+.contact_sidebar ul li{ width:40% !important; padding:0px;}
+.wpcf7-textarea{ height:75px !important;}
+#featured_slider ul, li{ margin:10px 5px;}
+.new_headingh{ font-size:15px;}
+.tab_2list li .span2{ padding:0px 10px 0px 0px;}
+#featured_slider ul, li{ margin:10px 5px !important;}
+.new_headingh{ font-size:15px !important;}
+
+	
+}*/
+.job-list-txt-plc p{ word-break: break-all; word-wrap:break-word;}
+.tab_2list li .span2{ padding:0px 18px 0px 0px;}
+.term-condition-rw{ text-align:justify;}
+
+
+
+/*-----------member login css-----------*/ 
+
+.job-type_field_main h3{
+	 color: #3C3D3F;
+    font-size: 18px;
+    font-weight: normal;
+    padding-bottom: 10px;
+    padding-left: 10px;
+	 }
+
+
+.job-type_field_main input[type="text"], .job-type_field_main input[type="password"] {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E3E3E3;
+    border-radius: 5px 5px 5px 5px;
+    height: 32px;
+    opacity: 0.9;
+    padding: 0 2%;
+    width: 90%;
+	margin:8px;
+}
+.join-login-btn{ 
+clear:both;
+height:auto;
+margin:10px 10px 40px 
+}
+.join-login-btn input[type="image"]{
+	-moz-appearance: none;
+    background: none repeat scroll 0 0 #22B4EB;
+    border: medium none;
+    border-radius: 4px 4px 4px 4px !important;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: 'latoregular';
+    font-size: 15px;
+    padding:5px 15px;
+	clear:both;
+	}
+.join-login-btn:before,
+.join-login-btn:after {
+    content:"";
+    display:table;
+}
+.join-login-btn:after {
+    clear:both;
+}
+.join-field-part h4{
+	 color: #636467;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 8px;
+    padding: 0 10px;
+	font-weight:normal;
+}
+.name-text_field, .text_field{
+	 background: url("../images/drop.png") no-repeat scroll right center rgba(0, 0, 0, 0);
+    border: 1px solid #E3E3E3;
+    border-radius: 5px 5px 5px 5px;
+    height: 32px;
+    padding-right: 5px !important;
+    width: 94%;
+	margin:8px;
+	}
+.new_small{
+	float:left;
+	width:17% !important;
+	margin-right:0px !important;
+	}
+
+.join-firstname-field{ 
+width:38%; 
+float:left;
+}
+.error{ 
+font-size:11px; 
+margin-left:9px !important;
+}
+/*.job-input-bg{
+	float: left;
+    width: 44% !important;
+	}*/
+.job-textarea-field, .inputheading{ margin-top:40px; padding-bottom:10px; padding-left:10px; color: #3C3D3F;font-size: 18px;  font-weight: normal; clear:both !important;  }
+.job-textarea-bg textarea { width:95% !important; margin:8px 0px; height:70px;}
+
+#submit_join_form{
+	-moz-appearance: none;
+    background: none repeat scroll 0 0 #22B4EB;
+    border: medium none;
+    border-radius: 4px 4px 4px 4px !important;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: 'latoregular';
+    font-size: 15px;
+    padding:5px 15px;
+	clear:both;
+	}
+.post-job-submit{
+	clear:both;
+height:auto;
+margin:20px 10px 30px 
+	}
+.post-job-submit:before,
+.post-job-submit:after {
+    content:"";
+    display:table;
+}
+.post-job-submit:after {
+    clear:both;
+}
+.job-radio{
+	color: #666666;
+    font-size: 14px !important;
+    margin: 10px;
+	}
+#uploafile{ margin-top:8px;}
+.join-field-area { clear:both;}
+.new_half{ width:48% !important;}
+.post-job-upload input.uploadbtn{ padding:10px 3px;}
+
+/*----------------------5-10-13 css----------------------*/
+
+/*builder css*/
+
+.build_input_bg input[type="text"]{
+	background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E3E3E3;
+    border-radius: 5px 5px 5px 5px;
+    height: 32px;
+    opacity: 0.9;
+    padding: 0 2%;
+    width: 94%;
+	margin:10px 0px !important;
+	 }
+	 
+.build_search_button input[type="submit"]{
+	-moz-appearance: none;
+    background: none repeat scroll 0 0 #22B4EB;
+    border: medium none;
+    border-radius: 4px 4px 4px 4px !important;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: 'latoregular';
+    font-size: 15px;
+    height: 33px;
+    line-height: 33px;
+    padding: 0 18px;
+	margin-bottom:10px !important;
+}
+
+/*@media (max-width :240px)  {
+.search_res input[type="text"]{ width:66%;}
+}
+*/
+.job-pagintn-part {
+    float: left;
+    margin:11px 0 0;
+    padding: 0;
+}
+
+.job-pagintn-part a {
+    float: left;
+    margin:0 4px 0 0;
+    padding:0;
+	background: url("../images/pagintn-btn.png") no-repeat scroll center top transparent;
+	width:26px;
+	height:26px;
+	line-height: 25px;
+	color:#fff;
+	text-decoration:none;
+	font-family: 'helvetica_neue_lt_std45_light';
+	font-size: 12px;
+	font-weight:normal;
+	text-align:center;
+}
+.job-pagintn-part a:hover {background: url("../images/pagintn-btn-hover.png") no-repeat scroll center top transparent;}
+.job-pagintn-part a.active {background: url("../images/pagintn-btn-hover.png") no-repeat scroll center top transparent;}
+.next-button {
+	margin:0;
+	padding:0 0 0 0;
+	float:right;
+	*float:left;
+	cursor:pointer;
+}
+.next-button span {
+	margin:0 0 0 0;
+	padding:0 0 0 10px;
+	*padding-left:7px;
+	float:left;
+	height:25px;
+	cursor:pointer;
+	background:url(../images/next-lft-btn.png) no-repeat left top;
+}
+.next-button span input {
+	margin:0 0 0 0;
+	padding:0 7px 0 0;
+	float:left;
+	height:25px;
+	border:none;
+	background:url(../images/next-rgt-btn.png) no-repeat right top;
+	font-family: 'helvetica_neue_lt_std45_light';
+	font-weight:normal;
+    font-size:12px;
+	color: #fff;
+	cursor:pointer;
+}
+
+/*Buy Tool css*/
+.new_textFile h3{ 
+		font-size:14px !important;
+		color:#0EA2D9 !important;
+}
+
+.new_textFile h1{
+	font-size:18px !important;
+	font-weight:normal !important;
+	margin-bottom:20px !important;
+	} 
+	
+/*content page css*/
+/*.term-condition-rw{
+	border:1px solid #c9c9c9;
+	border-radius:6px;
+	padding:10px 0px !important;
+
+	}*/
+.term-condition-rw
+.term-condition-rw:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.term-condition-rw {
+    display: inline-block;
+}
+.term-condition-rw {
+    display: block;
+}
+.term-condition-rw p{/*margin:15px 0px !important; */ margin-bottom:15px !important;}
+.term-condition-rw hr{ margin:10px 0px;}
+
+
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.clearfix {
+    display: inline-block;
+}
+.clearfix {
+    display: block;
+}
+
+.new_row{ border:1px solid #c9c9c9; border-radius:6px; padding:10px 0px;}
+
+/*post a job css*/
+/*.txt_cate h2{ font-size:14px !important;}*/
+
+/*.txt_cate strong{ font-size:12px; color:#3d3d3d; line-height:16px;}
+
+.txt_cate{ padding:8px;}*/
+
+.txt_cate {
+	
+	font-family: 'helvetica_neue_lt_std45_light';
+	font-size:14px;
+	line-height:18px;
+	color:#000;
+	padding:1px 15px;
+	clear:both;
+}
+.txt_cate span {
+	margin:0 0 0 0;
+	padding:5px 0 0 0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:13px;
+	color:#707070;
+	display:block;
+}
+.join_now input[type="button"] {
+    background: none repeat scroll 0 0 #8952C1;
+    border: medium none;
+    border-radius: 4px 4px 4px 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: 'latoregular';
+    font-size: 15px;
+    height: 33px;
+    line-height: 33px;
+    padding: 0 18px;
+	float:right;
+	margin-right:8px;
+}
+.notmember{padding-bottom:50px; border-bottom:2px dotted #000; margin-bottom:20px;}
+
+.notmember h3{ float:left; padding-bottom:0px; line-height:43px; font-weight:bold;}
+.txt_cate h3{ padding-left:0px !important;}
+
+
+/*-------------------- 7-10 css changes --------------------*/
+
+/* post a job page after login */
+
+/*.builder div{
+	background:#22B4EB;
+	float:left;
+	border-radius:5px;
+	padding:5px 5px;
+	margin-right:5px;
+	font-size:13px;
+	}*/
+.builder div a{ 
+		color:#fff;
+}
+.job-type_field_main {
+	clear:both !important;
+	border:1px solid #cdcdcd;
+	border-radius:8px;
+	padding:8px;
+	}
+
+.builder:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.builder {
+    display: inline-block;
+}
+.builder {
+    display: block;
+	margin-bottom:20px;
+}
+/*.active_arrow {
+    background: url("../images/active_arrow.png") no-repeat scroll center bottom rgba(0, 0, 0, 0);
+}*/
+.job-type-field, .join-field-area{
+	 margin-top:15px;
+	 }
+.job-type-field span, .job-location-field span{
+	font-weight:bold;
+	}
+	
+.post-job-submit input[type="image"]{
+	 -moz-appearance: none;
+    background: none repeat scroll 0 0 #22B4EB;
+    border: medium none;
+    border-radius: 4px 4px 4px 4px !important;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: 'latoregular';
+    font-size: 15px;
+    padding:8px 18px;
+	margin-top:8px;
+}
+.job-radio-field span{
+	 display:block !important;
+	 }
+.job-radio{
+	float:left;
+	}
+.job-radio-submit-field{
+	clear:both !important;
+	}
+	
+/*@media (max-width :320px)  {
+	.builder div{
+		font-size:12px;
+		margin-right:2px;
+		}
+	}
+@media (max-width:240px)  {
+	.builder div{
+		font-size:14px;
+		margin:5px auto;
+		float:none;
+		width:85%;
+		}
+		
+		
+	}*/
+
+/*contact us page css*/
+
+.new_text p{
+	font-size:12px;
+	line-height:20px
+	}
+em{
+	color:#707070;
+	font-size:12px;
+	
+	}
+.contact_sidebar ul li{
+	 padding: 0px 5px;
+	 font-size:13px;
+	 }
+
+
+.new_text:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.new_text {
+    display: inline-block;
+}
+.new_text {
+    display: block;
+	padding:8px 10px;
+}
+
+
+
+/*---------------- samsung s3 css ----------------*/
+
+
+
+/*login_status css*/
+ .my_account_new, .my_Name_new, .my_Logout_new {
+	float:left;
+	}
+.login_status{
+	font-size:14px;
+	color:#686868;
+	margin-bottom:20px;
+	margin-right:15px;
+	float:right;
+	margin-top:10px;
+	}
+.my_account_new a{
+	color:#686868;
+	font-weight:bold;
+	padding:0px !important;
+
+	}
+.my_account_new a:hover{
+	color:#0EA2D9;
+
+	}
+.my_Logout_new a{
+	padding:0px !important;
+	color:#fff;
+	}
+.my_Name_new{
+	margin-left:5px;
+	
+	 /* Safari 4-5, Chrome 1-9 */ 
+	 background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#efefef), to(#fcfcfc));
+	  /* Safari 5.1, Chrome 10+ */
+	   background: -webkit-linear-gradient(top, #fcfcfc, #efefef); 
+	  /* Firefox 3.6+ */ 
+	  background: -moz-linear-gradient(top, #fcfcfc, #efefef);
+	   /* IE 10 */ 
+	   background: -ms-linear-gradient(top, #fcfcfc, #efefef); 
+	   /* Opera 11.10+ */ 
+	   background: -o-linear-gradient(top, #fcfcfc, #efefef);
+	   padding:4px 5px;
+	   border-radius:3px;
+	   box-shadow:1px 1px 1px #ccc;
+	}
+.my_Logout_new {
+	background:#719c5c;
+	 padding:3px 5px;
+	 color:#fff;
+	 border:1px solid #678e54;
+	}
+.my_account_new{
+	 padding:4px 5px;
+	}
+/*@media (max-width:240px)  {
+	.my_account_new{
+		float:none !important;
+		}
+	}
+	
+
+@media (max-width:240px)  {
+	.login_status{
+		float:none !important;
+		}
+	.my_Name_new, .my_Logout_new{
+		margin-top:7px;
+		margin-bottom:20px;
+		}
+	}*/
+/*8-10-13 css*/
+/*welcome page*/
+
+body{
+	background:#fff !important;
+}
+
+.mobile_myaccount_page{
+	padding:8px;
+	}
+/*.mobile_myaccount_page .builder div{
+	padding:8px 7px !important;
+	margin-right:2px !important;
+	font-size:12px;
+	}*/
+/*.mobile_myaccount_page .active_arrow {
+    background: url("../images/active_arrow.png") no-repeat scroll center bottom rgba(0, 0, 0, 0) !important;
+}*/
+.mobile_myaccount_page .new_top_section{
+	float:left;
+	width:75%;
+	}
+.mobile_myaccount_page .profile_img{
+	float:right;
+	width:20%;
+	}
+.mobile_myaccount_page .builder{
+	clear:both;
+	padding-top:10px;
+	}
+.mobile_myaccount_page .join-firstname-field{
+	width:50% !important;
+	}
+.mobile_myaccount_page .join-field-area input[type="text"], .mobile_myaccount_page .join-field-area input[type="password"]{
+	 background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E3E3E3;
+    border-radius: 5px 5px 5px 5px;
+    height: 32px;
+    margin: 8px;
+    opacity: 0.9;
+    padding: 0 2%;
+    width: 90%;
+}
+.mobile_myaccount_page .join-firstname-field .job-input-bg{
+	width:100% !important;
+	}
+.mobile_myaccount_page .job-input-bg{
+	width:50%;
+	float:left;
+	}
+.mobile_myaccount_page .tradesmultiple{
+	clear:both;
+	}
+.mobile_myaccount_page .tradesmultiple h4{
+	float:left;
+	font-size:18px;
+	}
+.mobile_myaccount_page .btn-acrdtn-part h3{
+		padding-top:10px;
+		font-size:16px;
+		color:#636467;
+	}
+.mobile_myaccount_page .btn-acrdtn-part h3 span{
+	display:block;
+	padding-bottom:15px;
+	font-weight:normal;
+	}
+.mobile_myaccount_page .tradesmultiple a{
+	float:right;
+	color:#585858;
+	}
+.mobile_myaccount_page .join-field-area h4{
+	float:left;
+	font-size:18px;
+	}
+.mobile_myaccount_page .acrdtn-btn{
+	width:16%;
+	background:#22B4EB;
+	float:left;
+	padding:5px 0px;
+	border-radius:5px;
+	margin-right:2px;
+	}
+.mobile_myaccount_page .acrdtn-btn input{
+	background:none;
+	border:none;
+	color:#fff;
+	width:100%;
+	text-align:center;
+	}
+.mobile_myaccount_page #aaiu-upload-container{
+	clear:both;
+	padding-top:10px;
+	}
+.mobile_myaccount_page .personal_container .personal_title{
+	color:#636467;
+	}
+.mobile_myaccount_page .personal_container .t_area{
+	width:97%;
+	margin:10px;
+	height:70px;
+	}
+.mobile_myaccount_page .personal_container{
+	margin-top:15px;
+	}
+ .mobile_myaccount_page .recent-work-area h3, .mobile_myaccount_page .welcome_txt h3{
+	color:#5d5d5d;
+	text-shadow:0px 1px 0px #ccc;
+	}
+ .mobile_myaccount_page .recent-work{
+	 border:1px solid #ccc;
+	 border-radius:5px;
+	 padding:5px;
+	 padding:20px 20%;
+	}
+ .mobile_myaccount_page .recent-work-plc{
+	 margin-top:15px;
+	 width:40%;
+	 float:left;
+	 margin-left:5%;
+	}
+ .mobile_myaccount_page .recent-work-plc a{
+	 border: 1px solid #CCCCCC;
+    border-radius: 5px 5px 5px 5px;
+    display: block;
+    margin-top: 5px;
+    padding: 3px 0;
+    text-align: center;
+    text-decoration: none;
+	background:#f2f2f2;
+	color:#000;
+	font-size:14px;
+ }
+/*.mobile_myaccount_page .recent-work span{
+	margin-bottom:10px;
+	border-bottom:1px dotted #ccc;
+	clear:both;
+	background:#ccc;
+	padding:20px;
+	}*/
+.mobile_myaccount_page .accnt_btns{
+	clear:both;
+	padding:10px 0px;
+	}
+.mobile_myaccount_page .accnt_btns div{
+	width:53%;
+	/*float:left;*/
+	margin-top:10px;
+
+	}
+
+.mobile_myaccount_page .accnt_btns div a{
+	background:#22B4EB;
+	padding:5px 10px;
+	border-radius:5px;
+	color:#fff;
+	display: block;
+	margin-top:5px;
+	
+	
+	}
+.mobile_myaccount_page .before, .mobile_myaccount_page .after{
+	color:#22B4EB;
+	font-weight:bold;
+	clear:both;
+	height:20px;
+	display:block;
+	text-align:center;
+	}
+.mobile_myaccount_page #work_imagename{
+	padding:8px !important;
+	border-radius:5px;
+	border:1px solid #ccc !important;
+	margin-top:15px;
+
+	}
+.mobile_myaccount_page #work_upload_btn{
+	margin-top:15px;
+}
+.uploadbtn{
+	margin-left:5px;
+	}
+.mobile_myaccount_page .recent-work span{
+	padding-bottom:20px;
+	margin-top:10px;
+	border-bottom:1px dotted #ccc;	
+	}
+.mobile_myaccount_page #img_category1{
+	margin-left:8px;
+	}
+.mobile_myaccount_page #imagename{
+	border: 1px solid #CCCCCC !important;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 8px;
+    padding: 8px !important;
+	}
+.mobile_myaccount_page .job-title-field-area{
+	clear:both;
+	}
+.builder div {
+	background: url("../images/blue-left-btn.png") no-repeat scroll left top transparent;
+cursor: pointer;
+float: left;
+margin: 0 7px 0 0;
+min-width: 21.8%;
+min-width: 9.8%;
+padding: 0 0 0 8px;
+}
+.builder span {
+background: url("../images/blue-right-btn.png") no-repeat scroll right top transparent;
+border: medium none;
+cursor: pointer;
+float: left;
+padding: 0 5px 0 0;
+text-align: center;
+width: 97%;
+}
+.builder div span a {
+color: #FFFFFF;
+display: block;
+float: left;
+font-family: 'helvetica_neue_lt_std45_light';
+font-size: 12px;
+line-height: 43px;
+margin: 0;
+padding-bottom: 5px;
+text-align: center;
+text-decoration: none;
+width: 100%;
+}
+.active_arrow {
+background: url(../images/active_arrow.png) no-repeat bottom;
+}
+.mobile_myaccount_page .job-list-area h3{
+	color:#5d5d5d;
+	text-shadow:0px 1px 0px #ccc;
+	padding-top:15px;
+	clear:both;
+	padding-left:5px;
+	padding-bottom:10px;
+	font-weight:normal;
+	font-size:16px !important;
+	}
+.mobile_myaccount_page .job-list-area input[type="password"], .mobile_myaccount_page .job-list-area input[type="text"], .mobile_myaccount_page .job-input-bg input[type="text"], .mobile_myaccount_page .job-input-bg input[type="password"]{
+	 background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E3E3E3;
+    border-radius: 5px 5px 5px 5px;
+    height: 32px;
+    margin: 8px;
+    opacity: 0.9;
+    padding: 0 2%;
+    width: 90%;
+}
+.mobile_myaccount_page .job-list-part{
+	border: 1px solid #CCCCCC;
+    border-radius: 5px 5px 5px 5px;
+    padding: 8px;
+}
+.mobile_myaccount_page .job-img-part{
+	float: left;
+    margin-right: 8px;
+    width: 25%;
+	}
+.mobile_myaccount_page .read-more-job-btn{
+	clear:both;
+	padding-top:10px;
+		}
+.mobile_myaccount_page .job-list-txt-plc p{
+	margin-top:8px;
+			}
+.mobile_myaccount_page .read-more-job-btn span a{
+	background:#0EA2D9;
+	padding:5px 8px;
+	color:#fff;
+	border-radius:3px;
+	font-size:14px;
+			}
+.mobile_myaccount_page .job-submit-radio-area{
+	clear:both;
+	padding-top:15px;
+			}
+.mobile_myaccount_page .title_area h3{
+	padding-bottom:0px !important;
+		}
+.mobile_myaccount_page .personal_container{
+	margin-top:0px !important;
+		}
+		
+/*message css*/
+.mobile_myaccount_page .options a{
+	background:#e6e6e6;
+	padding:8px 15px;
+	border-radius:5px;
+	color:#5c5c5c;
+	border:1px solid #dbdbdb;
+	}
+.mobile_myaccount_page .options a:hover{
+	background:#719c5c;
+	color:#fff;
+	border:1px solid #5c7f4a;
+	}
+
+/*-------- 10-10 css --------*/
+
+.mobile_myaccount_page .msgcontainer{
+	margin-top:25px;
+	}
+.mobile_myaccount_page .msgcontainer h2{
+	color:#5d5d5d;
+	text-shadow:0px 1px 0px #ccc;
+}
+.mobile_myaccount_page .msgcontainer .unread_msg{
+	color:#719c5c;
+	font-size:14px;
+	padding-top:8px;	
+	}
+.mobile_myaccount_page .msgcontainer .msg{
+	border:1px solid #ccc;
+	border-radius:8px;
+	padding:8px;
+	margin:10px 0px;
+	background:url(../images/more_bg.png) no-repeat top right;
+	}
+.mobile_myaccount_page .msgtitle span{
+	font-size:14px;
+	}
+.mobile_myaccount_page .msgbg{
+	font-size:14px;
+	color:#707070;
+	padding-top:8px;
+
+	}
+.mobile_myaccount_page .msgdesc{
+	padding-top:5px;
+	float:left;
+	width:73%;
+	}
+.mobile_myaccount_page .msgtime{
+	float:right;
+	font-size:14px;
+	color:#707070;
+	padding-top:8px;
+	margin-right:15px;
+	}
+.mobile_myaccount_page .downloadbg{
+	clear:both;
+	display:block;
+	padding:20px 0px;
+	}
+.mobile_myaccount_page .downloadbg a{
+	background:#e6e6e6;
+	padding:8px 10px;
+	border-radius:5px;
+	color:#5c5c5c;
+	border:1px solid #dbdbdb;
+	font-size:12px;
+	font-weight:normal;
+	}
+.mobile_myaccount_page .read-more-job-btn{
+	margin-bottom:5px;
+	}
+.mobile_myaccount_page .traders-head{
+	background:#e6e6e6;
+	padding:10px;
+	border-radius:5px;
+	color:#5c5c5c;
+	border:1px solid #dbdbdb; 
+	font-size:14px;
+	font-weight:normal;
+	width:93%;
+	}
+.mobile_myaccount_page .activeoption{
+	background:#719c5c !important;
+	color:#fff !important;
+	border:1px solid #5c7f4a !important;
+	}
+
+/*subscription css*/
+
+.mobile_myaccount_page .plan_info_container .title{
+	float:left; 
+	width:80%;
+	color: #999999;
+    float: left;
+    font-size: 16px;
+    font-weight: normal;
+    text-shadow: 1px 0 0 #CCCCCC;
+	}
+.mobile_myaccount_page .plan_info_container .price{
+	float:left; 
+	width:20%;
+	color: #7437B3;
+    float: right;
+    font-weight: bold;
+    text-shadow: 1px 0 0 #CCCCCC;
+	}
+.mobile_myaccount_page .plan_info_container .price:hover{
+	color:#60854e;
+	}
+.mobile_myaccount_page .plan_btn input[type="button"],.mobile_myaccount_page .plan_btn input[type="submit"]{
+	 background: none repeat scroll 0 0 #0EA2D9;
+    border-radius: 3px 3px 3px 3px;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 5px 8px;
+	border:none !important;
+	cursor:pointer;
+	}
+.mobile_myaccount_page .plan_btn {
+	margin:5px 10px;
+	}
+.mobile_myaccount_page .plan_info_container{
+		background: -moz-linear-gradient(center top , #FCFCFC, #EFEFEF) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 10px;
+	 }
+.mobile_myaccount_page .plan_info{
+	border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 0 #CCCCCC;
+    margin: 10px auto 15px;
+		}
+.mobile_myaccount_page .plan_info p{
+	padding:8px;
+		}
+.mobile_myaccount_page .plan_info p span{
+	display:block;
+	}
+.mobile_myaccount_page .substime_mob{
+	background: url("../images/30day.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+    color: #585858 !important;
+    font-size: 14px !important;
+	font-weight:bold !important;
+}
+.mobile_myaccount_page .substime_mob img{
+	margin-right:5px;
+	}
+.mobile_myaccount_page .listing{
+	 border-bottom: 1px dotted #CCCCCC;
+	 padding:6px;
+	 font-size:14px;
+	}
+.mobile_myaccount_page .listing img{
+	margin-right:5px;
+	}
+.mobile_myaccount_page .punchline, .mobile_myaccount_page .note{
+	color:#666;
+	font-size:14px;
+	}
+.mobile_myaccount_page .punchline, .mobile_myaccount_page .Note_txt{
+	margin-top:10px;
+	}
+
+.mobile_myaccount_page .plan_btn input[type="button"]:hover{
+	background:#719c5c !important;
+	}
+	
+./*@media (max-width:320px)  {
+	
+.builder div {   
+    margin: 0 6px 0 0;
+    min-width: 8.8%;
+    padding: 0 0 0 5px;
+}
+
+.mobile_myaccount_page .options a {
+    padding: 8px 12px;
+}
+	}*/
+
+/*creare cv pge css*/
+.mobile_myaccount_page table{
+	font-size:14px;
+	}
+.mobile_myaccount_page table td{
+	padding:5px 0px;
+	font-size:12px !important;
+	
+	}
+.mobile_myaccount_page .temp_bg{
+	width:40% !important;
+	margin:0px !important;
+	word-break:break-all;
+	word-wrap:break-word;
+	padding-right:10px;
+	font-size:14px !important;
+	}
+.mobile_myaccount_page table td input[type="text"]{
+	 background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E3E3E3;
+    border-radius: 5px 5px 5px 5px;
+    height: 32px;
+    opacity: 0.9;
+    padding: 0 2%;
+    width: 90%;
+	margin-bottom:5px;
+}
+.mobile_myaccount_page table td input[type="radio"]{
+	margin-left:3px;
+	}
+.mobile_myaccount_page #text_area textarea{
+	 height: 100px !important;
+    width: 95% !important;
+	}
+	
+	
+/*rate page css*/
+#popup_box, #popup_box_rating {
+	width:65% !important;
+	left:10% !important;
+	}
+#popupBoxClose{
+	right:10px !important;
+	top:10px !important;
+	}
+.request_msg{
+	margin:15px 0px;
+	}
+.apply_nw_btn{
+	-moz-appearance: none;
+    background: none repeat scroll 0 0 #22B4EB;
+    border: medium none;
+    border-radius: 4px 4px 4px 4px !important;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: 'latoregular';
+    font-size: 14px;
+    padding: 8px 10px;
+	}
+	
+/*------------11-10-13 css------------*/
+
+@media (max-width :640px) {
+	#featured_slider  .content_left{
+		 margin-left:10px;
+		 width:80%;
+	}
+	.buttons_list li a{
+		width:100%;
+		line-height:104px;
+		}
+	
+	.li_1, .li_2, .li_4, .li_5, .li_6, .li_7, .li_8{ height:140px;}
+	
+@media (max-width :480px)  {
+	#featured_slider .content_left{width:78%;}
+}
+@media (max-width :360px)  {
+	#featured_slider .content_left{width:70%; margin-left:0px;}
+	.new_imgbox{ width:20%;}
+	
+	.li_1, .li_2, .li_4, .li_5, .li_6, .li_7, .li_8{ height:60px;}
+	
+	
+}
+
+@media (max-width : 320px)  {
+#featured_slider .img_right{ width:65px !important}
+#featured_slider .content_left{width:70%;}
+.tab_2list li .span2{ padding:0px 10px 0px 0px;}
+.builder div{font-size:12px;margin-right:2px;}
+.builder div { margin: 0 6px 0 0;  min-width: 8.8%;  padding: 0 0 0 5px;}
+
+.mobile_myaccount_page .options a {
+    padding: 8px 12px;
+}
+}
+@media (max-width : 240px)  {
+	#featured_slider .img_right{ width:55px !important;}
+	#featured_slider .content_left{ width:60% !important;}
+	#featured_slider a{ font-size:14px !important;}
+	#featured_slider ul, li{ margin:0px 15px !important;}
+	ul.tabs li#tab1{ margin:0px 8px 0px 0px !important; padding:8px; font-size:12px; }
+ul.tabs li#tab2{ margin:0px !important; padding:8px; font-size:12px;}
+.buttons_list li{ width:43%;}
+#featured_slider ul, li{ margin:0px 5px !important;}
+#featured_slider .content_left{ margin:0px 5px !important;}
+.footer{ font-size:9px;}
+.footer a{ padding:0px;}
+.logo img{ width:95%;}
+.contact_sidebar ul li{ width:40% !important; padding:0px;}
+.wpcf7-textarea{ height:75px !important;}
+#featured_slider ul, li{ margin:10px 5px;}
+.new_headingh{ font-size:15px;}
+.tab_2list li .span2{ padding:0px 10px 0px 0px;}
+#featured_slider ul, li{ margin:10px 5px !important;}
+.new_headingh{ font-size:15px !important;}
+.search_res input[type="text"]{ width:66%;}
+.builder div{	font-size:14px;	margin:5px auto;float:none;	width:85%;}
+.my_account_new{	float:none !important;		}
+	
+	
+}
+
+@media (max-width:240px)  {
+	
+	}
+	
+
+@media (max-width:240px)  {
+	.login_status{
+		float:none !important;
+		}
+	.my_Name_new, .my_Logout_new{
+		margin-top:7px;
+		margin-bottom:20px;
+		}
+	}

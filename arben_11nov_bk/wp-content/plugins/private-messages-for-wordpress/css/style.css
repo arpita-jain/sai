@@ -1,0 +1,15 @@
+.form-table{ width:100%;}
+.form-table td {
+	width: 85%;
+}
+.form-table select {
+	height: auto;
+	width: 100%; border:1px solid #ccc; margin-bottom:10px; color: #707070;
+}
+
+.headmail
+{
+	font-family: 'helvetica_neue_lt_std45_light';
+	font-size:22px;
+	color: #000000;
+}

@@ -1,0 +1,1 @@
+var WPBannerizeJavascript={version:"1.0",incrementClickCount:function(a){jQuery.post(wpBannerizeJavascriptLocalization.ajaxURL,{action:'wpBannerizeClickCounter',id:a})}};

@@ -1,0 +1,30 @@
+.mbt_avatar {
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+}
+
+.mbt_user_type {
+	margin-left: 0px !important;
+	margin-top: 0px !important;
+	position: absolute;
+	display: inline !important;
+	top: 2px;
+	left: 2px;
+	border-radius: 50px;
+	border: 1px solid #ccc;
+	line-height: 7px !important;
+	font-family: Open Sans, Tahoma, Verdana, sans-serif !important;
+	box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.2);
+	background: #ccc;
+	color: #fff !important;
+	font-size: 9px !important;
+	padding: 3px 4px !important;
+}
+
+.mini .mbt_user_type,
+.acomment-avatar .mbt_user_type,
+.mbt_bar .mbt_user_type,
+.wp-admin .mbt_user_type {
+	display: none !important;
+}

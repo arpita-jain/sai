@@ -1,0 +1,16 @@
+#lcode,#lcodetd{display: none;}
+        #result{display:none;}
+table
+{
+border-collapse:collapse;
+font-weight: normal;
+font-size:small;
+font-variant: normal;
+font-style: normal;
+color: -webkit-text;
+text-align: -webkit-auto;
+}
+table,th, td
+{
+border: 1px solid black;
+}

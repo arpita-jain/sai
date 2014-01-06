@@ -1,0 +1,11 @@
+{
+"require": {
+  "wegottickets/kiosk-lib": "0.8"
+},
+"repositories": [
+   {
+     "type": "vcs",
+     "url": "git@github.com:wegottickets/kiosk-lib.git"
+   }
+  ]
+}

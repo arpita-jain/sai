@@ -1,0 +1,76 @@
+ 
+ body
+{
+    width: 100%;
+    height:100%;
+    }
+ 
+ .login
+    {
+        margin-top: 150px;
+        width:300px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        border: solid 1px gray;
+        -webkit-border-radius: 1em;
+        -moz-border-radius: 1em;
+        border-radius: 1em;
+        padding: 20px 0 0 20px;
+    }
+    /*for admin panal*/
+    .admin
+    {
+        margin-top: 150px;
+        width:300px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        border: solid 1px gray;
+        -webkit-border-radius: 1em;
+        -moz-border-radius: 1em;
+        border-radius: 1em;
+        padding: 20px 0 0 20px;
+    }
+   
+    .heading
+    {
+        font-size: 18px;
+        color:#3399FF;
+    }
+    /*for passchange*/
+    .passchange
+    {
+       
+        width:300px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        border: solid 1px gray;
+        -webkit-border-radius: 1em;
+        -moz-border-radius: 1em;
+        border-radius: 1em;
+        padding: 20px 0 0 20px; 
+    }
+table {
+white-space: normal;
+line-height: normal;
+font-weight: normal;
+font-size:small;
+font-variant: normal;
+font-style: normal;
+color: -webkit-text;
+text-align: -webkit-auto;
+}
+td
+{
+    height:30px;
+}
+
+.content
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}

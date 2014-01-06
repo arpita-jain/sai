@@ -1,0 +1,15 @@
+div.wp_bannerize{float:left}
+div.wp_bannerize div{float:left; margin:0 0 12px 1.2%; width:23.8%;}
+/*div.wp_bannerize div:first-child{ margin-left:0px;}*/
+div.wp_bannerize div span{font-weight:bold;text-align:center}div.wp_bannerize p.wp-bannerize-support{clear:both;text-align:center;padding:4px;background:#eee;-moz-box-shadow:0 0 4px #aaa;-webkit-box-shadow:0 0 4px #aaa;box-shadow:0 0 4px #aaa;-moz-border-radius:32px;-webkit-border-radius:32px;border-radius:32px}
+.Top_banner div.wp_bannerize{float:none}
+.Top_banner div.wp_bannerize div{float:none; height:584px; margin:0px; width:100%;}
+.Top_banner div.wp_bannerize div img{ height:100%;}
+/*@media only screen and (max-width: 768px)
+{
+	div.wp_bannerize div{width:23.2%;}
+}
+@media only screen and (max-width: 685px)
+{
+	div.wp_bannerize div{width:23.8%;}
+}*/

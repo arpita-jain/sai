@@ -1,0 +1,134 @@
+
+#system_notice_area_dismiss{
+color: #FFFFFF;
+cursor: pointer;
+}
+.system_notice_area_style1 {
+	background: #00C348;
+	border: 1px solid green;
+}
+
+.system_notice_area_style0 {
+	background: #FA5A6A;
+	border: 1px solid brown;
+}
+
+
+#button {
+	width: 140px;
+	background-color: #E4E4E4;
+	cursor: pointer;
+	-webkit-border-radius: 40px;
+	-moz-border-radius: 40px;
+	border-radius: 40px;
+}
+
+#button:hover {
+	border: 1px solid #797979;
+}
+
+.areaSize{
+	width:600px;
+	height:200px;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+#startTime {
+	width: 80px;
+	background-color: #FFFFFF;
+}
+#endTime {
+	width: 80px;
+	background-color: #FFFFFF;
+}
+
+#hour {
+	width: 45px;
+}
+
+#minute {
+	width: 45px;
+}
+
+#hour_end {
+	width: 45px;
+}
+
+#minute_end {
+	width: 45px;
+}
+
+#textarea {
+	width: 485px;
+	height: 200px;
+}
+#space {
+	width: 525px;
+	float: left;
+}
+
+#innerSpace {
+	float: right;
+}
+
+#select {
+	width: 199px;
+}
+
+label{
+	cursor:default;
+}
+
+#img{
+	width:20px;
+	height: 20px;
+}
+
+#tdCenter{
+	text-align: center;
+}
+.bottonWidth{
+	width:120px;
+}
+#buttonDesign{
+	width:120px;
+}
+
+#bottomBorderNone {
+	border-bottom:none;
+}
+
+legend{
+	font-size: 14px;
+}
+.settingInput{
+	width:400px;	
+}
+.setInput{
+	width:100px;
+	text-align:left;
+}
+
+#submit_em{
+	background:#25A6E1;
+	background:-moz-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+	background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#25A6E1),color-stop(100%,#188BC0));
+	background:-webkit-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+	background:-o-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+	background:-ms-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+	background:linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#25A6E1",endColorstr="#188BC0",GradientType=0);
+	padding:1px 13px;
+	color:#ffffff;
+	font-family:"Helvetica Neue",sans-serif;
+	font-size:15px;
+	cursor:pointer;
+	border: 1px solid #1A87B9;
+    border-radius: 4px 4px 4px 4px;
+    font-weight: normal;
+    font-size: 13px;
+}

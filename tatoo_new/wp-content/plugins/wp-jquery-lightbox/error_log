@@ -1,0 +1,1 @@
+[18-Sep-2013 15:19:52 America/New_York] PHP Fatal error:  Call to undefined function add_action() in /home/tatoo/public_html/wp-content/plugins/wp-jquery-lightbox/wp-jquery-lightbox.php on line 11

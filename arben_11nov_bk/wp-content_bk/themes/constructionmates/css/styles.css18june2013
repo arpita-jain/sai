@@ -1,0 +1,183 @@
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+
+	body {
+		
+	}
+	
+
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+	body {
+		
+	}
+
+}
+
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+/*	.logo {
+		background: url(logo2x.jpg) no-repeat;
+		background-size: 212px 303px;
+	}*/
+
+}
+@media handheld, only screen and (max-width: 770px) {
+.coptright_txt {
+	padding:10px 0 23px 0!important;
+}
+.logo_footer {
+	padding:20px 0 10px 0!important;
+}
+
+.container .footer-nav {
+    float: none;
+    margin:0 auto;
+    width:95%;
+}
+
+
+.nav_right {
+	width:100%;
+	padding:10px 0 10px 0;
+}
+
+
+.container  .footer-nav {
+ width: 100%;
+margin:0;
+padding:0;
+}
+
+.container  .footer-nav ul{
+clear:both;
+margin:0 ;
+ display: none;
+    visibility: hidden;
+}
+.container .footer-nav select, .container .footer-nav select {
+    display: block ;
+	width:100%;
+} 
+
+.container .photo{
+    text-align:center;
+    clear:both;
+    margin-top:0;
+    margin-bottom:0;
+    margin-left:0;
+    padding-top:15px;
+}
+    .container  .language-nav{
+     margin: 0 0 0 0px;
+    position: absolute;
+    right: 0;
+    top: 0px;
+
+}
+
+.container .language-nav ul {
+padding-top:0;
+}
+
+.container .full-width-in-mobile{
+     float: none;
+	margin:0;
+	padding:0;
+    width: auto;
+}
+
+.container .footer-nav {
+    float: none;
+    margin:0 auto;
+    width:95%;
+}
+
+
+.nav_right_footer {
+	width:100%;
+	padding:0px!important;
+}
+}
+
+@media handheld, only screen and (max-width: 767px) {
+
+    
+.container  .nav {
+ width: 100%;
+margin:0;
+padding:0;
+}
+
+.container  .nav ul{
+clear:both;
+margin:0 ;
+ display: none;
+    visibility: hidden;
+}
+.container .nav select, .container .footer-nav select {
+    display: block ;
+} 
+.container .footer-nav ul{
+     display: none;
+    visibility: hidden;
+
+ }
+.container .photo{
+    text-align:center;
+    clear:both;
+    margin-top:0;
+    margin-bottom:0;
+    margin-left:0;
+    padding-top:15px;
+}
+    .container  .language-nav{
+     margin: 0 0 0 0px;
+    position: absolute;
+    right: 0;
+    top: 0px;
+
+}
+
+.container .language-nav ul {
+padding-top:0;
+}
+
+.container .full-width-in-mobile{
+     float: none;
+	margin:0;
+	padding:0;
+    width: auto;
+}
+
+
+
+
+
+
+}
+@media handheld, only screen and (max-width: 1010px) {
+
+.nav_right {
+	width:100%;
+	padding:0px 0 10px 0;
+}
+.search_field_main {
+	margin:0 0 0 0;
+	padding:0 1% 0 1%;
+	float:left;
+	width:98%;
+}
+
+}
+

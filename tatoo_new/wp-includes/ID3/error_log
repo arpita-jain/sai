@@ -1,0 +1,4 @@
+[20-Oct-2013 03:40:34 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/tatoo/public_html/wp-includes/ID3/module.audio.dts.php on line 21
+[20-Oct-2013 08:13:32 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/tatoo/public_html/wp-includes/ID3/module.audio.ac3.php on line 18
+[22-Oct-2013 00:02:49 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/tatoo/public_html/wp-includes/ID3/module.audio.mp3.php on line 25
+[24-Oct-2013 00:44:50 America/New_York] PHP Fatal error:  Class 'getid3_lib' not found in /home/tatoo/public_html/wp-includes/ID3/module.tag.id3v2.php on line 16

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Detail</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/defualt.css" media="screen">
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<link rel="stylesheet" href="css/jquery-ui.css" />
+<script src="js/jquery-ui.js"></script>
+<script>
+$(function() {
+$( "#accordion" ).accordion();
+});
+</script>
+</head>
+
+<body>
+<div class="main_freme">
+  <div class="logo"> <a href="index.html"><img src="images/logo.png" alt="Everything you need to know"></a>
+    <div class="header">
+      <div class="wrap top-bar">
+        <button class="menu-show"><img src="images/plus.png" alt="plus"></button>
+        <button class="menu-hide"><img src="images/minus.png" alt="minus"></button>
+        <div class="clear-both"></div>
+      </div>
+    </div>
+    <nav class="menu">
+      <ul>
+        <li><a href="#">Builders</a></li>
+        <li><a href="#">Traders</a></li>
+        <li><a href="#">Jobs</a></li>
+        <li><a href="#">Post a Job</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Terms & Conditions</a></li>
+        <li><a href="#">Privacy&Cookie’s</a></li>
+        <li><a href="#">Sitemap</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#" class="last_li">Blog</a></li>
+      </ul>
+    </nav>
+    <div class="clear-both"></div>
+  </div>
+  <div class="content">
+    <div class="banner">
+      <form name="form1" method="post" action="">
+        <div class="frm_row">
+          <p class="frm_text">What</p>
+          <div class="frm_input">
+            <input type="text" name="textfield" id="textfield" placeholder="name, category, accreditations, skill ">
+          </div>
+        </div>
+        <div class="frm_row">
+          <p class="frm_text">Where</p>
+          <div class="frm_input">
+            <input type="text" name="textfield" id="textfield" placeholder="city or postcode" class="second_inp">
+            <a href="#"><img src="images/location.png" alt="icon" class="location"></a></div>
+        </div>
+        <div class="frm_row2">
+          <input type="submit" name="button" id="button" value="Search" class="search_btn">
+          <input type="submit" name="button2" id="button2" value="Join Now" class="join_btn">
+        </div>
+      </form>
+    </div>
+    <div class="clear-both"></div>
+    <div class="tabs_search">
+      <div class="meal_row">
+        <form action="" method="post">
+          <select name="select" id="select">
+            <option>Architecture</option>
+          </select>
+          <span><a href="#">Indore</a> | <a href="#">220 Miles</a></span>
+        </form>
+      </div>
+      <div class="detail_row">
+        <div class="detail_row_left"><img src="images/detail_img1.jpg" alt="img"></div>
+        <div class="detail_row_right">
+          <p>Name: Mehta and Sons</p>
+          <p>Address: Soth Tukoganj,Indore</p>
+          <p>Phone: +91-731-7654321</p>
+          <p>Email: mehta&amp;sons@yahoo.com</p>
+          <p>Website: <a href="#">www.constructionmates.co.uk</a></p>
+          <p class="detail_btn_box"><a href="#">Available</a><a href="#">Request My CV </a><a href="#">Quote Me</a><a href="#">Rate Me</a></p>
+        </div>
+        <div class="clear-both"></div>
+      </div>
+      <p class="arc_h">Accreditations</p>
+      <div class="csc_btn_box">
+        <ul>
+          <li><a href="#">CSCS</a></li>
+          <li><a href="#">FIRST AID</a></li>
+          <li><a href="#">GAS SAFE</a></li>
+          <li><a href="#">CITY GUIDE</a></li>
+          <li><a href="#">IPAF</a></li>
+          <li><a href="#">PASHA</a></li>
+          <div class="clear-both"></div>
+        </ul>
+      </div>
+      <div id="accordion">
+        <h3>About Us</h3>
+        <div>
+          <p> Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+            ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+            amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+            odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate. </p>
+            <p> Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+            inceptos himenaeos. </p>
+        </div>
+        <h3>My Skills</h3>
+        <div>
+          <p> Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+            purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+            velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+            suscipit faucibus urna. </p>
+            <p> Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+            inceptos himenaeos. </p>
+        </div>
+        <h3>Work Area</h3>
+        <div>
+          <p> Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+            Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+            ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+            lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui. </p>
+          <ul>
+            <li>List item one</li>
+            <li>List item two</li>
+            <li>List item three</li>
+          </ul>
+        </div>
+        <h3>Contact Me</h3>
+        <div>
+          <p> Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+            et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+            faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+            mauris vel est. </p>
+          <p> Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+            inceptos himenaeos. </p>
+        </div>
+        
+        
+        
+        <h3>Customer Feedback</h3>
+        
+        <div>
+          <p> Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+            et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+            faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+            mauris vel est. </p>
+          <p> Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+            inceptos himenaeos. </p>
+        </div>
+        
+        
+        <h3>Recent Work</h3>
+        <div class="recentwork">
+        <div class="recentlist">
+          <p><img src="images/rcnt-bfr-txt-img.png" alt=""></p>
+          <ul>
+          <li><a href="#"><img src="images/flower352.jpg"></a></li>
+          <li><a href="#"><img src="images/flower-251.jpg"></a></li>
+          <li><a href="#"><img src="images/flower352.jpg"></a></li>
+          <li><a href="#"><img src="images/flower-251.jpg"></a></li>
+          <li><a href="#"><img src="images/flower352.jpg"></a></li>
+          </ul>
+          </div>
+          <div class="recentlist">
+          <p><img src="images/rcnt-aftr-txt-img.png" alt=""></p>
+          <ul>
+            <li><a href="#"><img src="images/flower-212.jpg"></a></li>
+            <li><a href="#"><img src="images/delete1.jpeg"></a></li>
+            <li><a href="#"><img src="images/flower-212.jpg"></a></li>
+            <li><a href="#"><img src="images/delete1.jpeg"></a></li>
+            <li><a href="#"><img src="images/flower-212.jpg"></a></li>
+            </ul>
+          </div>
+          </div>
+      </div>
+      <div class="adv_box"> <img src="images/adv_1.jpg" alt="img"><img src="images/adv_2.jpg" alt="img">
+        <div class="clear-both"></div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="wrap bot-bar">
+      <ul class="footer_list">
+        <li><a href="#">Mobile</a></li>
+        |
+        <li><a href="#">Smart Phone</a></li>
+        |
+        <li><a href="#">Desktop Site</a></li>
+      </ul>
+      &copy; 2013 <a href="#">ConstructionMates.co.uk</a> All rights reserved.
+      <div class="clear-both"></div>
+    </div>
+  </div>
+  <script type="text/javascript">
+	$('.menu').hide();
+	$('.menu-show').show();
+	$('.menu-hide').hide();
+	$('.menu-show').click(function(){
+		$('.menu-show').toggle();
+		$('.menu-hide').toggle();
+		$('.menu').slideDown();
+	});
+	$('.menu-hide').click(function(){
+		$('.menu-hide').toggle();
+		$('.menu-show').toggle();
+		$('.menu').slideUp();
+	});
+</script> 
+  <a href="http://www.mobifreaks.com" title="site design by Mobifreaks.com"></a> </div>
+</body>
+</html>

@@ -1,0 +1,333 @@
+---------------------------
+Plugins Changed:
+- wpjobboard
+- buddypress-media (RTMedia)
+- buddypress-activity-plus
+- buddypress-like
+
+---------------------------
+Changes:
+
+1) 
+Path:		\\plugins\wpjobboard\application\libraries\Form\Admin\Config\Posting.php
+Change:		Added a line "$e->addOption(4, 4, __("Studio", WPJB_DOMAIN));" after line no 22
+From - To:	Only added a line after Line 22
+
+2) 
+Path:		\\plugins\wpjobboard\application\libraries\Form\Admin\Config\Posting.php
+Change:		Commented a line 20 
+From - To:	Only commented Line 20
+
+3) 
+Path:		\\plugins\wpjobboard\application\libraries\Form\Admin\Config\Posting.php
+Change:		Commented a line 21 
+From - To:	Only commented Line 21
+
+4) 
+Path:		\plugins\wpjobboard\application\libraries\Module\Frontend\AddJob.php
+Change:		Added a condition to prohibit user from posting jobs if he is not Studio type
+From - To:	Line 39 to 45
+
+5) 
+Path:		\plugins\wpjobboard\application\libraries\Module\Frontend\AddJob.php
+Change:		Added a condition to prohibit user from posting jobs if not logged in
+From - To:	Line 39 to 45
+
+6) 
+Path:		\plugins\wpjobboard\application\libraries\Form\Apply.php
+Change:		Added a condition to prohibit user from applying for jobs if he is not Artist type
+From - To:	Line 46 to 50
+
+7) 
+Path:		\plugins\wpjobboard\application\libraries\Module\Frontend\Index.php
+Change:		Added a condition to prohibit user from applying for jobs if he is not Artist type
+From - To:	Line 259 to 263
+
+8) 
+Path:		\plugins\wpjobboard\application\libraries\Form\Apply.php
+Change:		Added a condition to prohibit user from applying for jobs if not logged in
+From - To:	Line 46 to 50
+
+9) 
+Path:		\plugins\wpjobboard\application\libraries\Module\Frontend\Index.php
+Change:		Added a condition to prohibit user from applying for jobs if not logged in
+From - To:	Line 259 to 263
+
+10) 
+Path:		\plugins\wpjobboard\templates\widget\job-board-menu.php
+Change:		Renamed "Company Jobs" to "Studio Jobs"
+From - To:	Line 26
+
+11) 
+Path:		\plugins\wpjobboard\templates\widget\job-board-menu.php
+Change:		Renamed "Company Profile" to "Studio Profile"
+From - To:	Line 31
+
+12) 
+Path:		\plugins\wpjobboard\templates\widget\job-board-menu.php
+Change:		Renamed "Company Login" to "Studio Login"
+From - To:	Line 49
+
+13) 
+Path:		\plugins\wpjobboard\templates\widget\job-board-menu.php
+Change:		Renamed "Company Registration" to "Studio Registration"
+From - To:	Line 54
+
+13) 
+Path:		\plugins\wpjobboard\templates\widget\resumes-menu.php
+Change:		Commented lines 43 to 52
+From - To:	Line 43 to Line 52
+
+36) 
+Path:		\plugins\wpjobboard\templates\widget\job-board-menu.php
+Change:		Commented Lines 47 to 56
+From - To:	Line 47 to Line 56
+
+37) 
+Path:		\plugins\wpjobboard\templates\widget\job-board-menu.php
+Change:		Commented Lines 40 to 45
+From - To:	Line 40 to Line 45
+
+38)             \plugins\wpjobboard\templates\widget\resumes-menu.php
+change:		commented Lines 37 to 41
+From - To:	Line 37 to 41
+
+39)             \plugins\buddypress-activity-plus\img\system\film.png
+change:		New image file is placed, old one is removed
+
+40)
+Path:           \plugins\buddypress-activity-plus\img\system\link.png
+change:		New image file is placed, old one is removed
+
+41)
+Path:           \plugins\buddypress-activity-plus\img\system\camera.png
+change:		New image file is placed, old one is removed
+
+42)
+Path:           \plugins\buddypress-activity-plus\img\system\film-hover.png
+change:		New image file is placed
+
+43) 
+Path:           \plugins\buddypress-activity-plus\img\system\link-hover.png
+change:		New image file is placed
+
+44)  
+Path:           \plugins\buddypress-activity-plus\img\system\camera-hover.png
+change:		New image file is placed
+
+45)
+Path:		\plugins\buddypress-activity-plus\css\bpfb_toolbar.css
+change:		Added lines
+From- To:	Line 19 to 21
+
+46)
+Path:		\plugins\buddypress-activity-plus\css\bpfb_toolbar.css
+change:		Update lines
+From - To:	Line 13 to 14
+
+47)
+Path:		\plugins\buddypress-activity-plus\lib\external\file_uploader.php
+change:		change the size limit to $sizeLimit = 20971520
+From - To:	Line 68
+
+
+49)
+Path:		\plugins\wpjobboard\templates\job-board\index.php
+change:		Removed Line 49, which was the duplicate of Line 48
+		 
+50)
+Path:		\plugins\wpjobboard\application\libraries\Form\ResumesSearch.php
+change:		Modified Line 27 to $e->setValue(__("title, experience ...", WPJB_DOMAIN));
+From - To:	Line 27
+
+51)
+Path:		\plugins\wpjobboard\application\libraries\Form\Admin\Company.php
+change:		Modified Line 65 so that HTML tags are not shown as requested by client
+From - To:	Line 65
+
+52)
+Path:		plugins\wpjobboard\templates\job-board\step.php
+change:		Added this code in the file <h2 id="wpjb-step">
+ 		<span class="step1"><?php wpjb_render_step(1); ?></span>
+ 		<span class="step2"><?php wpjb_render_step(2); ?></span>
+ 		<span class="step3"><?php wpjb_render_step(3); ?></span>
+ 
+ 		<div class="steps_number">
+  			<span class="num1">1</span>
+  			<span class="num2">2</span>
+  			<span class="num3">3</span>
+ 		</div>
+		<hr />
+   		</h2>
+From - To: 	copy paste in the file
+
+53)
+Path:		\plugins\wpjobboard\framework\Validate\Url.php
+change:		Commented Line 15 and added a new Line 16 with code if( !filter_var ( $value, FILTER_VALIDATE_URL ) ) {
+From - To:	Line 15 to 16
+
+54) 
+Path:		\plugins\wpjobboard\templates\widget\job-board-menu.php
+Change:		Commented Lines 34 to Line 45
+From - To:	Line 34 to 45
+
+55)		themes\OneCommunity-child\activity\index.php
+change:		comment line
+From - To		105
+
+56)		\plugins\wpjobboard\templates\widget\job-board-menu.php
+change		update line 26 to this code  <?php _e("Applications", WPJB_DOMAIN) ?>
+From - To		Line 26
+
+57)		\plugins\wpjobboard\templates\widget\resumes-menu.php
+change		added lines  
+		Line 19 <?php $my_resume = (mbt_get_user_type() == 'artist')? true:false; ?>
+		Line 34 <?php if($my_resume): ?>
+		Line 40 <?php endif; ?>
+
+/////////////////////////////////// remove the my resume Select degree////////////////////////////////////
+
+
+58)		\plugins\wpjobboard\application\libraries\Form\Admin\Resume.php
+change		comented lines and add a single line return array();
+From - To 	40 - 52
+
+59)		\plugins\wpjobboard\application\libraries\Form\Admin\Resume.php
+change		comented lines
+From - To 	180 - 186  
+
+60)		\plugins\wpjobboard\application\libraries\Form\ResumeSearch.php
+change		comented lines
+From - To 	31 - 36   
+
+61)		\plugins\wpjobboard\framework\ProjectAbstract.php
+change		comented lines
+From - To 	442
+
+
+62)		\plugins\wpjobboard\application\libraries\Form\Advancedsearch.php
+change		added line $e->addOption(31, null, __("All", WPJB_DOMAIN)); 
+From - To		At Line # 58
+
+63)		\plugins\wpjobboard\application\libraries\Form\resumesearch.php
+change		added line $e->addOption(31, null, __("All", WPJB_DOMAIN)); 
+From - To		At Line # 63
+
+
+64)		\plugins\wpjobboard\templates\resumes\resume.php
+change		New line <?php if($resume->category_id && mbt_get_sub_user_type() != 'p_artist'): ?>
+From - To		Line # 58
+
+
+65)		\plugins\wpjobboard\templates\resumes\resume-min.php
+change		New line <?php if($resume->category_id && mbt_get_sub_user_type() != 'p_artist'): ?>
+From - To		Line # 47
+
+66)		\plugins\wpjobboard\application\libariries\Form\Admin\Resume.php
+change		added lines if (mbt_get_sub_user_type() != 'p_artist') {  
+		and line } on 160
+From - To		Line # 151 160
+
+
+67)		\plugins\wpjobboard\application\libariries\Form\AbstractJob.php
+change		New line  if( mbt_get_sub_user_type() != 'p_artist') { 
+		and } on line 111
+From - To		Line # 102 and 111
+
+68)		\plugins\wpjobboard\framework\Form\element.php
+change		public function getPlaceholder()
+  		{
+        			return $this->_placeholder;
+    		}
+
+    		public function setPlaceholder($placeholder)
+    		{
+        			$this->_placeholder = $placeholder;
+    		}
+From - To		Line 216 
+
+
+69)		\plugins\wpjobboard\framework\Form\element.php
+change		Added protected $_placeholder = null;  
+From - To		Line 38 
+
+70)		\plugins\wpjobboard\templates\functions.php
+change		Update the line to echo '<a href="http://'.$url.'" class="wpjb-job-company">'.$company.'</a>';
+From - To		Line 250
+
+
+71)		\plugins\wpjobboard\templates\functions.php
+change		Update the line to echo "<a href=\"http://{$website}\" class=\"wpjb-company-link\" target=\"_blank\">{$website}</a>";
+From - To		Line 479
+
+
+		
+-----------------------------------------------
+
+-----------------------------------------------
+
+File buddypress-activity-plus\lib\forms\images_tag_template.php
+Added on line 15
+
+    $full_image = file_exists(bpfb_get_image_dir($activity_blog_id) . $info['filename'] . '-full.' . strtolower($info['extension'])) ?
+      bpfb_get_image_url($activity_blog_id) . $info['filename'] . '-full.' . strtolower($info['extension'])
+      :
+      bpfb_get_image_url($activity_blog_id) . trim($img)
+    ;
+
+Changed link to <a href="<?php echo trim($full_image); ?>" class="<?php echo $use_thickbox; ?>" rel="<?php echo $rel;?>" <?php echo $target; ?> >
+
+-----------------------------------------------
+
+-----------------------------------------------
+
+File buddypress-activity-plus\lib\class_bpfb_binder.php
+
+Added on line 61
+
+  $image = wp_get_image_editor($new_img);
+  if (!is_wp_error($image)) {
+    $thumb_filename  = $image->generate_filename('full');
+    $image->resize(MBT_MAX_IMAGE_WIDTH, MBT_MAX_IMAGE_HEIGHT, false);
+    $image->save($thumb_filename);
+  }
+
+-----------------------------------------------
+
+-----------------------------------------------
+File buddypress-like\bp-like.php
+
+Added on line 500
+
+	if( $author_id != $user_id ) {
+		$activity_id = ($activity['activities'][0]->id);
+		bp_core_add_notification( $item_id, $author_id, $component_name = 'ac_notifier', $component_action = 'activity_liked_'.$activity_id);
+	}
+
+-----------------------------------------------
+
+-----------------------------------------------
+
+/* ----------- Changes in (RTMedia Plugin)
+
+Path:   \plugins\buddypress-media\templates\main.php
+change:   Move line from 61 to 48 <div id="item-body">
+From - To Line 62
+
+Path:   \plugins\buddypress-media\templates\main.php
+change: 
+From 
+        </div><!--#item-body-->
+To 
+        <?php if ( $template_type != 'buddypress' ) { echo '</div><!--#item-body-->'; } ?>
+Line 159
+
+
+Path:   plugins\buddypress-media\app\main\controllers\upload\RTMediaUploadView.php
+change:   __ ( "Select", "rtmedia" ) TO __ ( "Upload", "rtmedia" )
+From - To:  Line 58
+
+-----------------------------------------------
+
+-----------------------------------------------
+

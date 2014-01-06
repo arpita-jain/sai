@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>TEsting</title>
+    </head>
+    <body>
+        <form method="post" action="support_class.php?action=gethelp"  > 
+            <input type="text" name="question_id" id="question_id" />
+            <table id="answer-panel" style="border:1px solid green;" width='100%' cellSpacing='1' cellPadding='10'   border="0">
+
+            </table>
+            <table style="border:1px solid green;" width='100%' cellSpacing='1' cellPadding='10'   border="0">
+                <tr>
+                    <td width="60" align="center">
+                        <img src="{agentpicto}" />
+                    </td>
+                    <td width="50" colspan="2">
+                        <textarea id='answerbox' name='answerbox' style='width:99%;height:50px;' ></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Status</strong></td>
+                    <td  colspan="2">
+                        <select style='padding:4px;width:150px;' name='ticket_status' id='ticket_status'>
+                            <option value='1' selected="selected">Open</option>
+                            <option value='2'>Closed</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr> 
+                    <td align='right'>
+                    </td>
+                    <td  colspan="2">
+                        <input style='padding:3px;width:100px;' onclick='return validateAnswer();' type='submit' name='answerbtn' value='Save'>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+.options{ float:left; width:100%; margin-top:27px; margin-bottom:20px;}
+.options a{ background:url(../images/option.png) repeat-x; border-radius:5px; border:1px solid #dbdbdb; color:#989898; font-family: 'helvetica_neue_lt_std45_light';
+ font-size:12px; line-height:42px; float:left; text-decoration:none; padding:0 15px; margin-right:10px; font-weight:normal;}
+.options a:hover,.options a.activeoption{ background:#719c5c; color:#fff; border:1px solid #678e54;}
+.options a span.compose{ background:url(../images/compose.png) no-repeat left top; padding-left:23px;}
+.options a span.inbox{ background:url(../images/inbox.png) no-repeat left top; padding-left:23px;}
+.options a span.refresh{ background:url(../images/refresh.png) no-repeat left top; padding-left:23px;  padding-top: 2px;}
+.options a span.delete{ background:url(../images/delete.png) no-repeat left top; padding-bottom:7px; padding-left:23px; padding-top:3px;}
+.options a span.sent{ background:url(../images/sent.png) no-repeat left top; padding-left:23px; padding-top: 1px;}
+.options a.activeoption span.compose,.options a.activeoption span.inbox,.options a.activeoption span.refresh,.options a.activeoption span.sent{ background-position:0 -30px;}
+.options a:hover span.compose,.options a:hover span.inbox,.options a:hover span.refresh,.options a:hover span.sent{background-position:0 -30px;}
+.options a.activeoption span.delete,.options a:hover span.delete{background-position:0 -25px;}
+.msgcontainer{ background:#fff; border:1px solid #DADADA; border-radius:5px; padding: 9px; margin: 0 0 14px; float:left; width:96%; font-family: 'helvetica_neue_lt_std45_light';
+ font-size:12px;}
+.msg{ border-top:1px solid #e2e2e2; padding:7px 0; float:left; width:100%;}
+.msgtitle{ float:left; width:24%;}
+.msgtitle input{ float:left; margin-right:10px;}
+.msgdesc{ float:left; width:66%;}
+.msgdesc span{ font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#707070;}
+.msgtime{ float:right; width:8%;}
+.highglightmsg{ background:#f9f9f9;}
+@media handheld, only screen and (max-width: 768px)
+{
+	.options a{padding:0 9px;}	
+	.options a:last-child{margin-right:0px;}
+	.msgtitle{width:26%;}
+	.msgdesc{width:61%;}
+	.msgdesc span{ float:left;}
+	.msgtime{ width:11%;}
+}
+@media handheld, only screen and (max-width: 685px)
+{
+	.msgdesc span{ float:none;}
+	.options a {padding: 0 26px;}
+}
+@media handheld, only screen and (max-width: 568px)
+{
+		.options a {padding:0 14.7px;}
+}
+@media handheld, only screen and (max-width: 480px)
+{
+		.options a {padding: 0 5.9px;}
+		.msgtitle {width: 30%;}
+		.msgdesc {width: 54%;}
+}
+@media handheld, only screen and (max-width: 380px)
+{
+	.options a{margin-bottom: 10px; margin-right: 0; padding: 0; text-align: center; width: 100%;}	
+	.msgtitle,.msgdesc,.msgtime{ width:100%;}
+	.msg{ padding-left:10px; padding-right:10px; width:93.2%;}
+		.msgdesc,.msgtime{}
+}
+
+

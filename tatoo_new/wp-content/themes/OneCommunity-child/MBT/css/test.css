@@ -1,0 +1,12 @@
+#mbt-box-shape	{
+    float: left;
+    height: 13px;
+    margin-right: 9px;
+    margin-top: -4px;
+    transform: rotate(45deg);
+    transition: all 0.2s linear 0s;
+    width: 13px;
+}
+
+
+	

@@ -1,0 +1,538 @@
+/* 
+Plugin Name: Hello World 
+Plugin URI: http://www.phptechi.com 
+Description: A simple Hello Word Plugin 
+Version: 0.1 
+Author: Sunil Rajput 
+Author URI: http://www.phptechi.com 
+*/  
+function hello_world() {  
+    Print("Hello World Test message.");  
+}
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>  test1</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="http://localhost/wordpress/xmlrpc.php" />
+<link rel="alternate" type="application/rss+xml" title="local &raquo; Feed" href="http://localhost/wordpress/?feed=rss2" />
+<link rel="alternate" type="application/rss+xml" title="local &raquo; Comments Feed" href="http://localhost/wordpress/?feed=comments-rss2" />
+<link rel="alternate" type="application/rss+xml" title="local &raquo; test1 Comments Feed" href="http://localhost/wordpress/?feed=rss2&#038;page_id=122" />
+<link rel='stylesheet' id='admin-bar-css'  href='http://localhost/wordpress/wp-includes/css/admin-bar.min.css?ver=3.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='bp-admin-bar-css'  href='http://localhost/wordpress/wp-content/plugins/buddypress/bp-core/css/admin-bar.min.css?ver=1.7' type='text/css' media='all' />
+<link rel='stylesheet' id='mtq_CoreStyleSheets-css'  href='http://localhost/wordpress/wp-content/plugins/mtouch-quiz/mtq_core_style.min.css?ver=3.0.5' type='text/css' media='all' />
+<link rel='stylesheet' id='mtq_ThemeStyleSheets-css'  href='http://localhost/wordpress/wp-content/plugins/mtouch-quiz/mtq_theme_style.min.css?ver=3.0.5' type='text/css' media='all' />
+<link rel='stylesheet' id='wpsc-thickbox-css'  href='http://localhost/wordpress/wp-content/plugins/wp-e-commerce/wpsc-core/js/thickbox.css?ver=3.8.9.5.649230' type='text/css' media='all' />
+<link rel='stylesheet' id='wpsc-theme-css-css'  href='http://localhost/wordpress/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-default.css?ver=3.8.9.5.649230' type='text/css' media='all' />
+<style type='text/css'>
+
+		/*
+		* Default View Styling
+		*/
+		div.default_product_display div.textcol{
+			margin-left: 158px !important;
+			min-height: 148px;
+			_height: 148px;
+		}
+
+		div.default_product_display  div.textcol div.imagecol{
+			position:absolute;
+			top:0px;
+			left: 0px;
+			margin-left: -158px !important;
+		}
+
+		div.default_product_display  div.textcol div.imagecol a img {
+			width: 148px;
+			height: 148px;
+		}
+
+		.wpsc_category_grid_item  {
+			display:block;
+			float:left;
+			width: 148px;
+			height: 148px;
+		}
+		.wpsc_category_grid_item  span{
+			position:relative;
+			top:16.222222222222px;
+		}
+		div.default_product_display div.item_no_image a  {
+			width: 146px;
+		}
+
+		div.default_product_display .imagecol img.no-image, #content div.default_product_display .imagecol img.no-image {
+			width: 148px;
+			height: 148px;
+        }
+
+		
+		/*
+		* Single View Styling
+		*/
+
+		div.single_product_display div.item_no_image  {
+			width: 146px;
+			height: 146px;
+		}
+		div.single_product_display div.item_no_image a  {
+			width: 146px;
+		}
+
+		div.single_product_display div.textcol{
+			margin-left: 158px !important;
+			min-height: 148px;
+			_height: 148px;
+		}
+
+
+		div.single_product_display  div.textcol div.imagecol{
+			position:absolute;
+
+			margin-left: -158px !important;
+		}
+
+		div.single_product_display  div.textcol div.imagecol a img {
+			width: 148px;
+			height: 148px;
+		}
+
+	div#categorydisplay{
+		display: block;
+	}
+
+	div#branddisplay{
+		display: none;
+	}
+
+</style>
+<link rel='stylesheet' id='wpsc-theme-css-compatibility-css'  href='http://localhost/wordpress/wp-content/plugins/wp-e-commerce/wpsc-theme/compatibility.css?ver=3.8.9.5.649230' type='text/css' media='all' />
+<link rel='stylesheet' id='tribe-events-calendar-style-css'  href='http://localhost/wordpress/wp-content/plugins/the-events-calendar/resources/events.css?ver=3.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='bp-legacy-css-css'  href='http://localhost/wordpress/wp-content/plugins/buddypress/bp-templates/bp-legacy/css/buddypress.css?ver=1.7' type='text/css' media='screen' />
+<link rel='stylesheet' id='esl-slideshow-css'  href='http://localhost/wordpress/wp-content/plugins/easing-slider/css/slideshow.min.css?ver=2.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='pinboard-web-font-css'  href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,regular,italic,600,600italic|Oswald:300,300italic,regular,italic,600,600italic&#038;subset=latin' type='text/css' media='all' />
+<link rel='stylesheet' id='pinboard-css'  href='http://localhost/wordpress/wp-content/themes/pinboard/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='colorbox-css'  href='http://localhost/wordpress/wp-content/themes/pinboard/styles/colorbox.css' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelementplayer-css'  href='http://localhost/wordpress/wp-content/themes/pinboard/styles/mediaelementplayer.css' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce_frontend_styles-css'  href='http://localhost/wordpress/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=3.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='synved-shortcode-jquery-ui-css'  href='http://localhost/wordpress/wp-content/plugins/synved-shortcodes/synved-shortcode/jqueryUI/css/snvdshc/jquery-ui-1.9.2.custom.min.css?ver=1.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='synved-shortcode-layout-css'  href='http://localhost/wordpress/wp-content/plugins/synved-shortcodes/synved-shortcode/style/layout.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='synved-shortcode-jquery-ui-custom-css'  href='http://localhost/wordpress/wp-content/plugins/synved-shortcodes/synved-shortcode/style/jquery-ui.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='myStyleSheets-css'  href='http://localhost/wordpress/wp-content/plugins/pro-questions/style.css?ver=3.5.1' type='text/css' media='all' />
+	<!--[if lt IE 9]>
+	<script src="http://localhost/wordpress/wp-content/themes/pinboard/scripts/html5.js" type="text/javascript"></script>
+	<![endif]-->
+<script type='text/javascript' src='http://localhost/wordpress/wp-includes/js/jquery/jquery.js?ver=1.8.3'></script>
+<script type='text/javascript' src='http://localhost/wordpress/wp-content/plugins/mtouch-quiz/script.min.js?ver=3.0.5'></script>
+<script type='text/javascript' src='http://localhost/wordpress/wp-content/plugins/wp-e-commerce/wpsc-core/js/wp-e-commerce.js?ver=3.8.9.5.649230'></script>
+<script type='text/javascript' src='http://localhost/wordpress/wp-content/plugins/wp-e-commerce/wpsc-core/js/jquery.infieldlabel.min.js?ver=3.8.9.5.649230'></script>
+<script type='text/javascript' src='http://localhost/wordpress/wp-content/plugins/wp-e-commerce/wpsc-core/js/ajax.js?ver=3.8.9.5.649230'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpsc_ajax = {"ajaxurl":"http:\/\/localhost\/wordpress\/wp-admin\/admin-ajax.php","spinner":"http:\/\/localhost\/wordpress\/wp-admin\/images\/wpspin_light.gif","no_quotes":"It appears that there are no shipping quotes for the shipping information provided.  Please check the information and try again."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://localhost/wordpress/index.php?wpsc_user_dynamic_js=true&#038;ver=3.8.9.5.649230'></script>
+<script type='text/javascript' src='http://localhost/wordpress/wp-content/plugins/wp-e-commerce/wpsc-admin/js/jquery.livequery.js?ver=1.0.3'></script>
+<script type='text/javascript' src='http://localhost/wordpress/wp-content/plugins/wp-e-commerce/wpsc-core/js/user.js?ver=3.8.9.5649230'></script>
+<script type='text/javascript' src='http://localhost/wordpress/wp-content/plugins/wp-e-commerce/wpsc-core/js/thickbox.js?ver=Instinct_e-commerce'></script>
+<script type='text/javascript' src='http://localhost/wordpress/wp-content/plugins/the-events-calendar/resources/jquery.pjax.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://localhost/wordpress/wp-content/plugins/the-events-calendar/resources/events.js?ver=3.5.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var BP_DTheme = {"my_favs":"My Favorites","accepted":"Accepted","rejected":"Rejected","show_all_comments":"Show all comments for this thread","show_all":"Show all","comments":"comments","close":"Close","view":"View","mark_as_fav":"Favorite","remove_fav":"Remove Favorite"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://localhost/wordpress/wp-content/plugins/buddypress/bp-templates/bp-legacy/js/buddypress.js?ver=1.7'></script>
+<script type='text/javascript' src='http://localhost/wordpress/wp-includes/js/comment-reply.min.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://localhost/wordpress/wp-content/plugins/easing-slider/js/slideshow.min.js?ver=2.1.1'></script>
+<script type='text/javascript' src='http://localhost/wordpress/wp-content/themes/pinboard/scripts/ios-orientationchange-fix.js'></script>
+<script type='text/javascript' src='http://localhost/wordpress/wp-content/themes/pinboard/scripts/jquery-migrate.js'></script>
+<script type='text/javascript' src='http://localhost/wordpress/wp-content/themes/pinboard/scripts/jquery.flexslider-min.js'></script>
+<script type='text/javascript' src='http://localhost/wordpress/wp-content/themes/pinboard/scripts/fitvids.js'></script>
+<script type='text/javascript' src='http://localhost/wordpress/wp-content/themes/pinboard/scripts/mediaelement.js'></script>
+<script type='text/javascript' src='http://localhost/wordpress/wp-content/themes/pinboard/scripts/mediaelementplayer.js'></script>
+<script type='text/javascript' src='http://localhost/wordpress/wp-content/themes/pinboard/scripts/colorbox.js'></script>
+<script type='text/javascript' src='http://localhost/wordpress/wp-content/plugins/synved-shortcodes/synved-shortcode/script/jquery.ba-bbq.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://localhost/wordpress/wp-content/plugins/synved-shortcodes/synved-shortcode/script/jquery.scrolltab.js?ver=1.0'></script>
+<script type='text/javascript' src='http://localhost/wordpress/wp-includes/js/jquery/ui/jquery.ui.core.min.js?ver=1.9.2'></script>
+<script type='text/javascript' src='http://localhost/wordpress/wp-includes/js/jquery/ui/jquery.ui.widget.min.js?ver=1.9.2'></script>
+<script type='text/javascript' src='http://localhost/wordpress/wp-includes/js/jquery/ui/jquery.ui.tabs.min.js?ver=1.9.2'></script>
+<script type='text/javascript' src='http://localhost/wordpress/wp-includes/js/jquery/ui/jquery.ui.accordion.min.js?ver=1.9.2'></script>
+<script type='text/javascript' src='http://localhost/wordpress/wp-includes/js/jquery/ui/jquery.ui.button.min.js?ver=1.9.2'></script>
+<script type='text/javascript' src='http://localhost/wordpress/wp-content/plugins/synved-shortcodes/synved-shortcode/script/jquery-unselectable.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://localhost/wordpress/wp-includes/js/jquery/ui/jquery.ui.mouse.min.js?ver=1.9.2'></script>
+<script type='text/javascript' src='http://localhost/wordpress/wp-includes/js/jquery/ui/jquery.ui.slider.min.js?ver=1.9.2'></script>
+<script type='text/javascript' src='http://localhost/wordpress/wp-content/plugins/synved-shortcodes/synved-shortcode/script/base.js?ver=1.0'></script>
+<script type='text/javascript' src='http://localhost/wordpress/wp-content/plugins/synved-shortcodes/synved-shortcode/script/custom.js?ver=1.0'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://localhost/wordpress/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://localhost/wordpress/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Questionarrie' href='http://localhost/wordpress/?page_id=119' />
+<link rel='next' title='test' href='http://localhost/wordpress/?page_id=124' />
+<meta name="generator" content="WordPress 3.5.1" />
+<link rel='canonical' href='http://localhost/wordpress/?page_id=122' />
+
+	<script type="text/javascript">var ajaxurl = 'http://localhost/wordpress/wp-admin/admin-ajax.php';</script>
+
+ <style type="text/css"> .easingsliderlite { border-color: #000000; } .easingsliderlite .easingsliderlite-arrows.easingsliderlite-next, .easingsliderlite .easingsliderlite-arrows.easingsliderlite-prev { } .easingsliderlite .easingsliderlite-arrows.easingsliderlite-next { } .easingsliderlite .easingsliderlite-arrows.easingsliderlite-prev { } .easingsliderlite .easingsliderlite-pagination .easingsliderlite-icon { } .easingsliderlite .easingsliderlite-pagination .easingsliderlite-icon.inactive { } .easingsliderlite .easingsliderlite-pagination .easingsliderlite-icon.active { } </style> <link rel='alternate' type='application/rss+xml' title='local Product List RSS' href='http://localhost/wordpress?wpsc_action=rss'/><script>
+/* <![CDATA[ */
+	jQuery(document).ready(function($) {
+		$('#access .menu > li > a').each(function() {
+			var title = $(this).attr('title');
+			if(typeof title !== 'undefined' && title !== false) {
+				$(this).append('<br /> <span>'+title+'</span>');
+				$(this).removeAttr('title');
+			}
+		});
+		function pinboard_move_elements(container) {
+			if( container.hasClass('onecol') ) {
+				var thumb = $('.entry-thumbnail', container);
+				if('undefined' !== typeof thumb)
+					$('.entry-container', container).before(thumb);
+				var video = $('.entry-attachment', container);
+				if('undefined' !== typeof video)
+					$('.entry-container', container).before(video);
+				var gallery = $('.post-gallery', container);
+				if('undefined' !== typeof gallery)
+					$('.entry-container', container).before(gallery);
+				var meta = $('.entry-meta', container);
+				if('undefined' !== typeof meta)
+					$('.entry-container', container).after(meta);
+			}
+		}
+		function pinboard_restore_elements(container) {
+			if( container.hasClass('onecol') ) {
+				var thumb = $('.entry-thumbnail', container);
+				if('undefined' !== typeof thumb)
+					$('.entry-header', container).after(thumb);
+				var video = $('.entry-attachment', container);
+				if('undefined' !== typeof video)
+					$('.entry-header', container).after(video);
+				var gallery = $('.post-gallery', container);
+				if('undefined' !== typeof gallery)
+					$('.entry-header', container).after(gallery);
+				var meta = $('.entry-meta', container);
+				if('undefined' !== typeof meta)
+					$('.entry-header', container).append(meta);
+				else
+					$('.entry-header', container).html(meta.html());
+			}
+		}
+		if( ($(window).width() > 960) || ($(document).width() > 960) ) {
+			// Viewport is greater than tablet: portrait
+		} else {
+			$('#content .post').each(function() {
+				pinboard_move_elements($(this));
+			});
+		}
+		$(window).resize(function() {
+			if( ($(window).width() > 960) || ($(document).width() > 960) ) {
+									$('.page-template-template-full-width-php #content .post, .page-template-template-blog-full-width-php #content .post, .page-template-template-blog-four-col-php #content .post').each(function() {
+						pinboard_restore_elements($(this));
+					});
+							} else {
+				$('#content .post').each(function() {
+					pinboard_move_elements($(this));
+				});
+			}
+			if( ($(window).width() > 760) || ($(document).width() > 760) ) {
+				var maxh = 0;
+				$('#access .menu > li > a').each(function() {
+					if(parseInt($(this).css('height'))>maxh) {
+						maxh = parseInt($(this).css('height'));
+					}
+				});
+				$('#access .menu > li > a').css('height', maxh);
+			} else {
+				$('#access .menu > li > a').css('height', 'auto');
+			}
+		});
+		if( ($(window).width() > 760) || ($(document).width() > 760) ) {
+			var maxh = 0;
+			$('#access .menu > li > a').each(function() {
+				var title = $(this).attr('title');
+				if(typeof title !== 'undefined' && title !== false) {
+					$(this).append('<br /> <span>'+title+'</span>');
+					$(this).removeAttr('title');
+				}
+				if(parseInt($(this).css('height'))>maxh) {
+					maxh = parseInt($(this).css('height'));
+				}
+			});
+			$('#access .menu > li > a').css('height', maxh);
+							$('#access li').mouseenter(function() {
+					$(this).children('ul').css('display', 'none').stop(true, true).fadeIn(250).css('display', 'block').children('ul').css('display', 'none');
+				});
+				$('#access li').mouseleave(function() {
+					$(this).children('ul').stop(true, true).fadeOut(250).css('display', 'block');
+				});
+					} else {
+			$('#access li').each(function() {
+				if($(this).children('ul').length)
+					$(this).append('<span class="drop-down-toggle"><span class="drop-down-arrow"></span></span>');
+			});
+			$('.drop-down-toggle').click(function() {
+				$(this).parent().children('ul').slideToggle(250);
+			});
+		}
+						$('audio,video').mediaelementplayer({
+			videoWidth: '100%',
+			videoHeight: '100%',
+			audioWidth: '100%',
+			alwaysShowControls: true,
+			features: ['playpause','progress','tracks','volume'],
+			videoVolume: 'horizontal'
+		});
+		$(".entry-attachment, .entry-content").fitVids({ customSelector: "iframe, object, embed"});
+	});
+	jQuery(window).load(function() {
+					jQuery('.entry-content a[href$=".jpg"],.entry-content a[href$=".jpeg"],.entry-content a[href$=".png"],.entry-content a[href$=".gif"],a.colorbox').colorbox();
+			});
+/* ]]> */
+</script>
+<style type="text/css">
+			#header input#s {
+			width:168px;
+			box-shadow:inset 1px 1px 5px 1px rgba(0, 0, 0, .1);
+			text-indent: 0;
+		}
+																																											</style>
+
+
+<!-- WooCommerce Version -->
+<meta name="generator" content="WooCommerce 2.0.8" />
+
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<style type="text/css" media="print">#wpadminbar { display:none; }</style>
+<style type="text/css" media="screen">
+	html { margin-top: 28px !important; }
+	* html body { margin-top: 28px !important; }
+</style>
+
+<style type="text/css"></style>
+<style type="text/css">
+	#site-title a,
+	#site-description {
+		color:#333;
+	}
+</style>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-image: url('http://localhost/wordpress/wp-content/themes/pinboard/images/bg.jpg'); background-repeat: repeat; background-position: top left; background-attachment: fixed; }
+</style>
+
+	<script type="text/javascript">
+		jQuery( document ).ready( function() {
+			jQuery( 'a.confirm').click( function() {
+				if ( confirm( 'Are you sure?' ) )
+					return true; else return false;
+			});
+		});
+	</script>
+
+</head>
+
+<body class="logged-in buddypress page page-id-122 page-template-default admin-bar no-customize-support custom-background page-template-template-full-width-php no-js">
+	<div id="wrapper">
+		<header id="header">
+			<div id="site-title">
+								<a class="home" href="http://localhost/wordpress/" rel="home">local</a>
+			</div>
+							<div id="sidebar-header" class="widget-area" role="complementary">
+		<aside id="search-2" class="widget widget_search"><form role="search" method="get" id="searchform" action="http://localhost/wordpress//" >
+	<input type="text" value="" placeholder="Search this website&#8230;" name="s" id="s" />
+	<input type="submit" id="searchsubmit" value="Search" />
+</form></aside><!-- .widget -->		<aside id="recent-posts-2" class="widget widget_recent_entries">		<h3 class="widget-title">Recent Posts</h3>		<ul>
+					<li>
+				<a href="http://localhost/wordpress/?p=79" title="Tutotrial post">Tutotrial post</a>
+						</li>
+					<li>
+				<a href="http://localhost/wordpress/?p=1" title="Hello world!">Hello world!</a>
+						</li>
+				</ul>
+		</aside><!-- .widget --><aside id="recent-comments-2" class="widget widget_recent_comments"><h3 class="widget-title">Recent Comments</h3><ul id="recentcomments"><li class="recentcomments">admin on <a href="http://localhost/wordpress/?page_id=28#comment-3">demo</a></li><li class="recentcomments">admin on <a href="http://localhost/wordpress/?page_id=2#comment-2">Sample Page</a></li><li class="recentcomments"><a href='http://wordpress.org/' rel='external nofollow' class='url'>Mr WordPress</a> on <a href="http://localhost/wordpress/?p=1#comment-1">Hello world!</a></li></ul></aside><!-- .widget --><aside id="archives-2" class="widget widget_archive"><h3 class="widget-title">Archives</h3>		<ul>
+			<li><a href='http://localhost/wordpress/?m=201304' title='April 2013'>April 2013</a></li>
+		</ul>
+</aside><!-- .widget --><aside id="categories-2" class="widget widget_categories"><h3 class="widget-title">Categories</h3>		<ul>
+	<li class="cat-item cat-item-1"><a href="http://localhost/wordpress/?cat=1" title="View all posts filed under Uncategorized">Uncategorized</a>
+</li>
+		</ul>
+</aside><!-- .widget --><aside id="bp_core_whos_online_widget-2" class="widget buddypress"><h3 class="widget-title">Who's Online</h3>
+					<div class="avatar-block">
+									<div class="item-avatar">
+						<a href="http://localhost/wordpress/members/admin/" title="admin"><img src="http://gravatar.com/avatar/8044fcf5c6f70cb3a864e4ec606142ee?d=http://localhost/wordpress/wp-content/plugins/buddypress/bp-core/images/mystery-man.jpg&amp;s=50&amp;r=G" class="avatar user-1-avatar avatar- photo" width="50" height="50" alt="Profile picture of admin" /></a>
+					</div>
+							</div>
+		
+		</aside><!-- .widget -->	<aside id="meta-2" class="widget widget_meta"><h3 class="widget-title">Meta</h3>			<ul>
+			<li><a href="http://localhost/wordpress/wp-admin/">Site Admin</a></li>			<li><a href="http://localhost/wordpress/wp-login.php?action=logout&#038;_wpnonce=e99f2cd5de">Log out</a></li>
+			<li><a href="http://localhost/wordpress/?feed=rss2" title="Syndicate this site using RSS 2.0">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://localhost/wordpress/?feed=comments-rss2" title="The latest comments to all posts in RSS">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>
+						</ul>
+</aside><!-- .widget -->	</div><!-- #sidebar-header -->
+			<div class="clear"></div>
+			<nav id="access">
+				<a class="nav-show" href="#access">Show Navigation</a>
+				<a class="nav-hide" href="#nogo">Hide Navigation</a>
+				<div class="menu-contact-us-container"><ul id="menu-contact-us" class="menu"><li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-33"><a href="http://localhost/wordpress/?page_id=2">Sample Page</a>
+<ul class="sub-menu">
+	<li id="menu-item-126" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-122 current_page_item menu-item-126"><a href="http://localhost/wordpress/?page_id=122">test1</a></li>
+	<li id="menu-item-121" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121"><a href="http://localhost/wordpress/?page_id=119">Questionarrie</a></li>
+</ul>
+</li>
+<li id="menu-item-34" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34"><a href="http://localhost/wordpress/?page_id=30">Demo2</a>
+<ul class="sub-menu">
+	<li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a href="http://localhost/wordpress/?page_id=28">demo</a>
+	<ul class="sub-menu">
+		<li id="menu-item-116" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-116"><a href="http://localhost/wordpress/?page_id=91">Shop</a></li>
+		<li id="menu-item-64" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-64"><a href="http://localhost/wordpress/?page_id=60">Products</a></li>
+		<li id="menu-item-65" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65"><a href="http://localhost/wordpress/?page_id=56">Quiz Games</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-36" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36"><a href="http://localhost/wordpress/?page_id=5">Members</a></li>
+<li id="menu-item-127" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-127"><a href="http://localhost/wordpress/?page_id=124">test</a></li>
+<li id="menu-item-37" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37"><a href="http://localhost/wordpress/?page_id=4">Activity</a></li>
+</ul></div>				<div class="clear"></div>
+			</nav><!-- #access -->
+		</header><!-- #header -->		<div id="container">
+		<section id="content" class="column onecol">
+							<article class="post-122 page type-page status-publish hentry column onecol instock" id="post-122">
+					<div class="entry">
+						<header class="entry-header">
+							<h1 class="entry-title">test1</h1>
+						</header><!-- .entry-header -->
+						<div class="entry-content">
+							<script type="text/javascript" src="http://localhost/wordpress/wp-content/plugins/cis-questionary/admin/assets/jquery-1.6.2.js"></script>
+            <script type="text/javascript">
+                jQuery(document).ready(
+                function($){
+                 
+                    $('#prev').hide();
+                    $('#next').hide();
+                });
+            </script>
+         <div style="border:2px solid #000; border-radius:8px; width:500px; height:250px; background: #ededed; padding:25px;">
+            <div style="font-size: 25px;">Sorry !!!!!!!!</div>
+             <div style="font-size: 18px;" >You Do Not Have Permission to Given This Test</div>
+       </div>
+     
+  
+							<div class="clear"></div>
+						</div><!-- .entry-content -->
+											</div><!-- .entry -->
+					
+
+								<div id="respond">
+				<h3 id="reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/wordpress/?page_id=122#respond" style="display:none;">Cancel reply</a></small></h3>
+									<form action="http://localhost/wordpress/wp-comments-post.php" method="post" id="commentform">
+																			<p class="logged-in-as">Logged in as <a href="http://localhost/wordpress/members/admin/profile/edit/">admin</a>. <a href="http://localhost/wordpress/wp-login.php?action=logout&amp;redirect_to=http%3A%2F%2Flocalhost%2Fwordpress%2F%3Fpage_id%3D122&amp;_wpnonce=e99f2cd5de" title="Log out of this account">Log out?</a></p>																			<p class="comment-form-comment"><label for="comment">Comment</label><textarea id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea></p>						<p class="form-allowed-tags">You may use these <abbr title="HyperText Markup Language">HTML</abbr> tags and attributes:  <code>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;strike&gt; &lt;strong&gt; </code></p>						<p class="form-submit">
+							<input name="submit" type="submit" id="submit" value="Post Comment" />
+							<input type='hidden' name='comment_post_ID' value='122' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+						</p>
+						<input type="hidden" id="_wp_unfiltered_html_comment_disabled" name="_wp_unfiltered_html_comment_disabled" value="2a41e6a712" /><script>(function(){if(window===window.parent){document.getElementById('_wp_unfiltered_html_comment_disabled').name='_wp_unfiltered_html_comment';}})();</script>
+<input type="hidden" name="eventDate" value="" />					</form>
+							</div><!-- #respond -->
+										</article><!-- .post -->
+					</section><!-- #content -->
+					<div id="sidebar" class="column threecol">
+				</div><!-- #sidebar -->			</div><!-- #container -->
+				<div id="footer">
+						<div id="copyright">
+				<p class="copyright twocol">&copy; 2013 local</p>
+									<p class="credits twocol">
+																															Powered by <a href="http://www.onedesigns.com/wordpress-themes/pinboard" title="Pinboard Theme">Pinboard Theme</a> and <a href="http://wordpress.org/" title="WordPress">WordPress</a>											</p>
+								<div class="clear"></div>
+			</div><!-- #copyright -->
+		</div><!-- #footer -->
+	</div><!-- #wrapper -->
+
+<!-- Generated in 0.522 seconds. (129 q) -->
+
+	<script type='text/javascript' src='http://localhost/wordpress/wp-includes/js/admin-bar.min.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://localhost/wordpress/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=2.0.8'></script>
+<script type='text/javascript' src='http://localhost/wordpress/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.50'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var woocommerce_params = {"countries":"{\"AF\":[],\"AT\":[],\"BE\":[],\"BI\":[],\"CZ\":[],\"DE\":[],\"DK\":[],\"FI\":[],\"FR\":[],\"HU\":[],\"IS\":[],\"IL\":[],\"KR\":[],\"NL\":[],\"NO\":[],\"PL\":[],\"PT\":[],\"SG\":[],\"SK\":[],\"SI\":[],\"LK\":[],\"SE\":[],\"VN\":[],\"AU\":{\"ACT\":\"Australian Capital Territory\",\"NSW\":\"New South Wales\",\"NT\":\"Northern Territory\",\"QLD\":\"Queensland\",\"SA\":\"South Australia\",\"TAS\":\"Tasmania\",\"VIC\":\"Victoria\",\"WA\":\"Western Australia\"},\"BR\":{\"AC\":\"Acre\",\"AL\":\"Alagoas\",\"AP\":\"Amap\u00e1\",\"AM\":\"Amazonas\",\"BH\":\"Bahia\",\"CE\":\"Cear\u00e1\",\"DF\":\"Distrito Federal\",\"ES\":\"Esp\u00edrito Santo\",\"GO\":\"Goi\u00e1s\",\"MA\":\"Maranh\u00e3o\",\"MT\":\"Mato Grosso\",\"MS\":\"Mato Grosso do Sul\",\"MG\":\"Minas Gerais\",\"PA\":\"Par\u00e1\",\"PB\":\"Para\u00edba\",\"PR\":\"Paran\u00e1\",\"PE\":\"Pernambuco\",\"PI\":\"Piau\u00ed\",\"RJ\":\"Rio de Janeiro\",\"RN\":\"Rio Grande do Norte\",\"RS\":\"Rio Grande do Sul\",\"RO\":\"Rond\u00f4nia\",\"RR\":\"Roraima\",\"SC\":\"Santa Catarina\",\"SP\":\"S\u00e3o Paulo\",\"SE\":\"Sergipe\",\"TO\":\"Tocantins\"},\"CA\":{\"AB\":\"Alberta\",\"BC\":\"British Columbia\",\"MB\":\"Manitoba\",\"NB\":\"New Brunswick\",\"NF\":\"Newfoundland\",\"NT\":\"Northwest Territories\",\"NS\":\"Nova Scotia\",\"NU\":\"Nunavut\",\"ON\":\"Ontario\",\"PE\":\"Prince Edward Island\",\"QC\":\"Quebec\",\"SK\":\"Saskatchewan\",\"YT\":\"Yukon Territory\"},\"CN\":{\"CN1\":\"Yunnan \\\/ \u4e91\u5357\",\"CN2\":\"Beijing \\\/ \u5317\u4eac\",\"CN3\":\"Tianjin \\\/ \u5929\u6d25\",\"CN4\":\"Hebei \\\/ \u6cb3\u5317\",\"CN5\":\"Shanxi \\\/ \u5c71\u897f\",\"CN6\":\"Inner Mongolia \\\/ \u5167\u8499\u53e4\",\"CN7\":\"Liaoning \\\/ \u8fbd\u5b81\",\"CN8\":\"Jilin \\\/ \u5409\u6797\",\"CN9\":\"Heilongjiang \\\/ \u9ed1\u9f99\u6c5f\",\"CN10\":\"Shanghai \\\/ \u4e0a\u6d77\",\"CN11\":\"Jiangsu \\\/ \u6c5f\u82cf\",\"CN12\":\"Zhejiang \\\/ \u6d59\u6c5f\",\"CN13\":\"Anhui \\\/ \u5b89\u5fbd\",\"CN14\":\"Fujian \\\/ \u798f\u5efa\",\"CN15\":\"Jiangxi \\\/ \u6c5f\u897f\",\"CN16\":\"Shandong \\\/ \u5c71\u4e1c\",\"CN17\":\"Henan \\\/ \u6cb3\u5357\",\"CN18\":\"Hubei \\\/ \u6e56\u5317\",\"CN19\":\"Hunan \\\/ \u6e56\u5357\",\"CN20\":\"Guangdong \\\/ \u5e7f\u4e1c\",\"CN21\":\"Guangxi Zhuang \\\/ \u5e7f\u897f\u58ee\u65cf\",\"CN22\":\"Hainan \\\/ \u6d77\u5357\",\"CN23\":\"Chongqing \\\/ \u91cd\u5e86\",\"CN24\":\"Sichuan \\\/ \u56db\u5ddd\",\"CN25\":\"Guizhou \\\/ \u8d35\u5dde\",\"CN26\":\"Shaanxi \\\/ \u9655\u897f\",\"CN27\":\"Gansu \\\/ \u7518\u8083\",\"CN28\":\"Qinghai \\\/ \u9752\u6d77\",\"CN29\":\"Ningxia Hui \\\/ \u5b81\u590f\",\"CN30\":\"Macau \\\/ \u6fb3\u95e8\",\"CN31\":\"Tibet \\\/ \u897f\u85cf\",\"CN32\":\"Xinjiang \\\/ \u65b0\u7586\"},\"HK\":{\"HONG KONG\":\"Hong Kong Island\",\"KOWLOON\":\"Kowloon\",\"NEW TERRITORIES\":\"New Territories\"},\"IN\":{\"AP\":\"Andra Pradesh\",\"AR\":\"Arunachal Pradesh\",\"AS\":\"Assam\",\"BR\":\"Bihar\",\"CT\":\"Chhattisgarh\",\"GA\":\"Goa\",\"GJ\":\"Gujarat\",\"HR\":\"Haryana\",\"HP\":\"Himachal Pradesh\",\"JK\":\"Jammu and Kashmir\",\"JH\":\"Jharkhand\",\"KA\":\"Karnataka\",\"KL\":\"Kerala\",\"MP\":\"Madhya Pradesh\",\"MH\":\"Maharashtra\",\"MN\":\"Manipur\",\"ML\":\"Meghalaya\",\"MZ\":\"Mizoram\",\"NL\":\"Nagaland\",\"OR\":\"Orissa\",\"PB\":\"Punjab\",\"RJ\":\"Rajasthan\",\"SK\":\"Sikkim\",\"TN\":\"Tamil Nadu\",\"TR\":\"Tripura\",\"UT\":\"Uttaranchal\",\"UP\":\"Uttar Pradesh\",\"WB\":\"West Bengal\",\"AN\":\"Andaman and Nicobar Islands\",\"CH\":\"Chandigarh\",\"DN\":\"Dadar and Nagar Haveli\",\"DD\":\"Daman and Diu\",\"DL\":\"Delhi\",\"LD\":\"Lakshadeep\",\"PY\":\"Pondicherry (Puducherry)\"},\"ID\":{\"AC\":\"Daerah Istimewa Aceh\",\"SU\":\"Sumatera Utara\",\"SB\":\"Sumatera Barat\",\"RI\":\"Riau\",\"KR\":\"Kepulauan Riau\",\"JA\":\"Jambi\",\"SS\":\"Sumatera Selatan\",\"BB\":\"Bangka Belitung\",\"BE\":\"Bengkulu\",\"LA\":\"Lampung\",\"JK\":\"DKI Jakarta\",\"JB\":\"Jawa Barat\",\"BT\":\"Banten\",\"JT\":\"Jawa Tengah\",\"JI\":\"Jawa Timur\",\"YO\":\"Daerah Istimewa Yogyakarta\",\"BA\":\"Bali\",\"NB\":\"Nusa Tenggara Barat\",\"NT\":\"Nusa Tenggara Timur\",\"KB\":\"Kalimantan Barat\",\"KT\":\"Kalimantan Tengah\",\"KI\":\"Kalimantan Timur\",\"KS\":\"Kalimantan Selatan\",\"KU\":\"Kalimantan Utara\",\"SA\":\"Sulawesi Utara\",\"ST\":\"Sulawesi Tengah\",\"SG\":\"Sulawesi Tenggara\",\"SR\":\"Sulawesi Barat\",\"SN\":\"Sulawesi Selatan\",\"GO\":\"Gorontalo\",\"MA\":\"Maluku\",\"MU\":\"Maluku Utara\",\"PA\":\"Papua\",\"PB\":\"Papua Barat\"},\"MY\":{\"JHR\":\"Johor\",\"KDH\":\"Kedah\",\"KTN\":\"Kelantan\",\"MLK\":\"Melaka\",\"NSN\":\"Negeri Sembilan\",\"PHG\":\"Pahang\",\"PRK\":\"Perak\",\"PLS\":\"Perlis\",\"PNG\":\"Pulau Pinang\",\"SBH\":\"Sabah\",\"SWK\":\"Sarawak\",\"SGR\":\"Selangor\",\"TRG\":\"Terengganu\",\"KUL\":\"W.P. Kuala Lumpur\",\"LBN\":\"W.P. Labuan\",\"PJY\":\"W.P. Putrajaya\"},\"NZ\":{\"NL\":\"Northland\",\"AK\":\"Auckland\",\"WA\":\"Waikato\",\"BP\":\"Bay of Plenty\",\"TK\":\"Taranaki\",\"HB\":\"Hawke\u2019s Bay\",\"MW\":\"Manawatu-Wanganui\",\"WE\":\"Wellington\",\"NS\":\"Nelson\",\"MB\":\"Marlborough\",\"TM\":\"Tasman\",\"WC\":\"West Coast\",\"CT\":\"Canterbury\",\"OT\":\"Otago\",\"SL\":\"Southland\"},\"ZA\":{\"EC\":\"Eastern Cape\",\"FS\":\"Free State\",\"GP\":\"Gauteng\",\"KZN\":\"KwaZulu-Natal\",\"LP\":\"Limpopo\",\"MP\":\"Mpumalanga\",\"NC\":\"Northern Cape\",\"NW\":\"North West\",\"WC\":\"Western Cape\"},\"TH\":{\"TH-37\":\"Amnat Charoen (\u0e2d\u0e33\u0e19\u0e32\u0e08\u0e40\u0e08\u0e23\u0e34\u0e0d)\",\"TH-15\":\"Ang Thong (\u0e2d\u0e48\u0e32\u0e07\u0e17\u0e2d\u0e07)\",\"TH-14\":\"Ayutthaya (\u0e1e\u0e23\u0e30\u0e19\u0e04\u0e23\u0e28\u0e23\u0e35\u0e2d\u0e22\u0e38\u0e18\u0e22\u0e32)\",\"TH-10\":\"Bangkok (\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23)\",\"TH-38\":\"Bueng Kan (\u0e1a\u0e36\u0e07\u0e01\u0e32\u0e2c)\",\"TH-31\":\"Buri Ram (\u0e1a\u0e38\u0e23\u0e35\u0e23\u0e31\u0e21\u0e22\u0e4c)\",\"TH-24\":\"Chachoengsao (\u0e09\u0e30\u0e40\u0e0a\u0e34\u0e07\u0e40\u0e17\u0e23\u0e32)\",\"TH-18\":\"Chai Nat (\u0e0a\u0e31\u0e22\u0e19\u0e32\u0e17)\",\"TH-36\":\"Chaiyaphum (\u0e0a\u0e31\u0e22\u0e20\u0e39\u0e21\u0e34)\",\"TH-22\":\"Chanthaburi (\u0e08\u0e31\u0e19\u0e17\u0e1a\u0e38\u0e23\u0e35)\",\"TH-50\":\"Chiang Mai (\u0e40\u0e0a\u0e35\u0e22\u0e07\u0e43\u0e2b\u0e21\u0e48)\",\"TH-57\":\"Chiang Rai (\u0e40\u0e0a\u0e35\u0e22\u0e07\u0e23\u0e32\u0e22)\",\"TH-20\":\"Chonburi (\u0e0a\u0e25\u0e1a\u0e38\u0e23\u0e35)\",\"TH-86\":\"Chumphon (\u0e0a\u0e38\u0e21\u0e1e\u0e23)\",\"TH-46\":\"Kalasin (\u0e01\u0e32\u0e2c\u0e2a\u0e34\u0e19\u0e18\u0e38\u0e4c)\",\"TH-62\":\"Kamphaeng Phet (\u0e01\u0e33\u0e41\u0e1e\u0e07\u0e40\u0e1e\u0e0a\u0e23)\",\"TH-71\":\"Kanchanaburi (\u0e01\u0e32\u0e0d\u0e08\u0e19\u0e1a\u0e38\u0e23\u0e35)\",\"TH-40\":\"Khon Kaen (\u0e02\u0e2d\u0e19\u0e41\u0e01\u0e48\u0e19)\",\"TH-81\":\"Krabi (\u0e01\u0e23\u0e30\u0e1a\u0e35\u0e48)\",\"TH-52\":\"Lampang (\u0e25\u0e33\u0e1b\u0e32\u0e07)\",\"TH-51\":\"Lamphun (\u0e25\u0e33\u0e1e\u0e39\u0e19)\",\"TH-42\":\"Loei (\u0e40\u0e25\u0e22)\",\"TH-16\":\"Lopburi (\u0e25\u0e1e\u0e1a\u0e38\u0e23\u0e35)\",\"TH-58\":\"Mae Hong Son (\u0e41\u0e21\u0e48\u0e2e\u0e48\u0e2d\u0e07\u0e2a\u0e2d\u0e19)\",\"TH-44\":\"Maha Sarakham (\u0e21\u0e2b\u0e32\u0e2a\u0e32\u0e23\u0e04\u0e32\u0e21)\",\"TH-49\":\"Mukdahan (\u0e21\u0e38\u0e01\u0e14\u0e32\u0e2b\u0e32\u0e23)\",\"TH-26\":\"Nakhon Nayok (\u0e19\u0e04\u0e23\u0e19\u0e32\u0e22\u0e01)\",\"TH-73\":\"Nakhon Pathom (\u0e19\u0e04\u0e23\u0e1b\u0e10\u0e21)\",\"TH-48\":\"Nakhon Phanom (\u0e19\u0e04\u0e23\u0e1e\u0e19\u0e21)\",\"TH-30\":\"Nakhon Ratchasima (\u0e19\u0e04\u0e23\u0e23\u0e32\u0e0a\u0e2a\u0e35\u0e21\u0e32)\",\"TH-60\":\"Nakhon Sawan (\u0e19\u0e04\u0e23\u0e2a\u0e27\u0e23\u0e23\u0e04\u0e4c)\",\"TH-80\":\"Nakhon Si Thammarat (\u0e19\u0e04\u0e23\u0e28\u0e23\u0e35\u0e18\u0e23\u0e23\u0e21\u0e23\u0e32\u0e0a)\",\"TH-55\":\"Nan (\u0e19\u0e48\u0e32\u0e19)\",\"TH-96\":\"Narathiwat (\u0e19\u0e23\u0e32\u0e18\u0e34\u0e27\u0e32\u0e2a)\",\"TH-39\":\"Nong Bua Lam Phu (\u0e2b\u0e19\u0e2d\u0e07\u0e1a\u0e31\u0e27\u0e25\u0e33\u0e20\u0e39)\",\"TH-43\":\"Nong Khai (\u0e2b\u0e19\u0e2d\u0e07\u0e04\u0e32\u0e22)\",\"TH-12\":\"Nonthaburi (\u0e19\u0e19\u0e17\u0e1a\u0e38\u0e23\u0e35)\",\"TH-13\":\"Pathum Thani (\u0e1b\u0e17\u0e38\u0e21\u0e18\u0e32\u0e19\u0e35)\",\"TH-94\":\"Pattani (\u0e1b\u0e31\u0e15\u0e15\u0e32\u0e19\u0e35)\",\"TH-82\":\"Phang Nga (\u0e1e\u0e31\u0e07\u0e07\u0e32)\",\"TH-93\":\"Phatthalung (\u0e1e\u0e31\u0e17\u0e25\u0e38\u0e07)\",\"TH-56\":\"Phayao (\u0e1e\u0e30\u0e40\u0e22\u0e32)\",\"TH-67\":\"Phetchabun (\u0e40\u0e1e\u0e0a\u0e23\u0e1a\u0e39\u0e23\u0e13\u0e4c)\",\"TH-76\":\"Phetchaburi (\u0e40\u0e1e\u0e0a\u0e23\u0e1a\u0e38\u0e23\u0e35)\",\"TH-66\":\"Phichit (\u0e1e\u0e34\u0e08\u0e34\u0e15\u0e23)\",\"TH-65\":\"Phitsanulok (\u0e1e\u0e34\u0e29\u0e13\u0e38\u0e42\u0e25\u0e01)\",\"TH-54\":\"Phrae (\u0e41\u0e1e\u0e23\u0e48)\",\"TH-83\":\"Phuket (\u0e20\u0e39\u0e40\u0e01\u0e47\u0e15)\",\"TH-25\":\"Prachin Buri (\u0e1b\u0e23\u0e32\u0e08\u0e35\u0e19\u0e1a\u0e38\u0e23\u0e35)\",\"TH-77\":\"Prachuap Khiri Khan (\u0e1b\u0e23\u0e30\u0e08\u0e27\u0e1a\u0e04\u0e35\u0e23\u0e35\u0e02\u0e31\u0e19\u0e18\u0e4c)\",\"TH-85\":\"Ranong (\u0e23\u0e30\u0e19\u0e2d\u0e07)\",\"TH-70\":\"Ratchaburi (\u0e23\u0e32\u0e0a\u0e1a\u0e38\u0e23\u0e35)\",\"TH-21\":\"Rayong (\u0e23\u0e30\u0e22\u0e2d\u0e07)\",\"TH-45\":\"Roi Et (\u0e23\u0e49\u0e2d\u0e22\u0e40\u0e2d\u0e47\u0e14)\",\"TH-27\":\"Sa Kaeo (\u0e2a\u0e23\u0e30\u0e41\u0e01\u0e49\u0e27)\",\"TH-47\":\"Sakon Nakhon (\u0e2a\u0e01\u0e25\u0e19\u0e04\u0e23)\",\"TH-11\":\"Samut Prakan (\u0e2a\u0e21\u0e38\u0e17\u0e23\u0e1b\u0e23\u0e32\u0e01\u0e32\u0e23)\",\"TH-74\":\"Samut Sakhon (\u0e2a\u0e21\u0e38\u0e17\u0e23\u0e2a\u0e32\u0e04\u0e23)\",\"TH-75\":\"Samut Songkhram (\u0e2a\u0e21\u0e38\u0e17\u0e23\u0e2a\u0e07\u0e04\u0e23\u0e32\u0e21)\",\"TH-19\":\"Saraburi (\u0e2a\u0e23\u0e30\u0e1a\u0e38\u0e23\u0e35)\",\"TH-91\":\"Satun (\u0e2a\u0e15\u0e39\u0e25)\",\"TH-17\":\"Sing Buri (\u0e2a\u0e34\u0e07\u0e2b\u0e4c\u0e1a\u0e38\u0e23\u0e35)\",\"TH-33\":\"Sisaket (\u0e28\u0e23\u0e35\u0e2a\u0e30\u0e40\u0e01\u0e29)\",\"TH-90\":\"Songkhla (\u0e2a\u0e07\u0e02\u0e25\u0e32)\",\"TH-64\":\"Sukhothai (\u0e2a\u0e38\u0e42\u0e02\u0e17\u0e31\u0e22)\",\"TH-72\":\"Suphan Buri (\u0e2a\u0e38\u0e1e\u0e23\u0e23\u0e13\u0e1a\u0e38\u0e23\u0e35)\",\"TH-84\":\"Surat Thani (\u0e2a\u0e38\u0e23\u0e32\u0e29\u0e0e\u0e23\u0e4c\u0e18\u0e32\u0e19\u0e35)\",\"TH-32\":\"Surin (\u0e2a\u0e38\u0e23\u0e34\u0e19\u0e17\u0e23\u0e4c)\",\"TH-63\":\"Tak (\u0e15\u0e32\u0e01)\",\"TH-92\":\"Trang (\u0e15\u0e23\u0e31\u0e07)\",\"TH-23\":\"Trat (\u0e15\u0e23\u0e32\u0e14)\",\"TH-34\":\"Ubon Ratchathani (\u0e2d\u0e38\u0e1a\u0e25\u0e23\u0e32\u0e0a\u0e18\u0e32\u0e19\u0e35)\",\"TH-41\":\"Udon Thani (\u0e2d\u0e38\u0e14\u0e23\u0e18\u0e32\u0e19\u0e35)\",\"TH-61\":\"Uthai Thani (\u0e2d\u0e38\u0e17\u0e31\u0e22\u0e18\u0e32\u0e19\u0e35)\",\"TH-53\":\"Uttaradit (\u0e2d\u0e38\u0e15\u0e23\u0e14\u0e34\u0e15\u0e16\u0e4c)\",\"TH-95\":\"Yala (\u0e22\u0e30\u0e25\u0e32)\",\"TH-35\":\"Yasothon (\u0e22\u0e42\u0e2a\u0e18\u0e23)\"},\"US\":{\"AL\":\"Alabama\",\"AK\":\"Alaska\",\"AZ\":\"Arizona\",\"AR\":\"Arkansas\",\"CA\":\"California\",\"CO\":\"Colorado\",\"CT\":\"Connecticut\",\"DE\":\"Delaware\",\"DC\":\"District Of Columbia\",\"FL\":\"Florida\",\"GA\":\"Georgia\",\"HI\":\"Hawaii\",\"ID\":\"Idaho\",\"IL\":\"Illinois\",\"IN\":\"Indiana\",\"IA\":\"Iowa\",\"KS\":\"Kansas\",\"KY\":\"Kentucky\",\"LA\":\"Louisiana\",\"ME\":\"Maine\",\"MD\":\"Maryland\",\"MA\":\"Massachusetts\",\"MI\":\"Michigan\",\"MN\":\"Minnesota\",\"MS\":\"Mississippi\",\"MO\":\"Missouri\",\"MT\":\"Montana\",\"NE\":\"Nebraska\",\"NV\":\"Nevada\",\"NH\":\"New Hampshire\",\"NJ\":\"New Jersey\",\"NM\":\"New Mexico\",\"NY\":\"New York\",\"NC\":\"North Carolina\",\"ND\":\"North Dakota\",\"OH\":\"Ohio\",\"OK\":\"Oklahoma\",\"OR\":\"Oregon\",\"PA\":\"Pennsylvania\",\"RI\":\"Rhode Island\",\"SC\":\"South Carolina\",\"SD\":\"South Dakota\",\"TN\":\"Tennessee\",\"TX\":\"Texas\",\"UT\":\"Utah\",\"VT\":\"Vermont\",\"VA\":\"Virginia\",\"WA\":\"Washington\",\"WV\":\"West Virginia\",\"WI\":\"Wisconsin\",\"WY\":\"Wyoming\",\"AA\":\"Armed Forces (AA)\",\"AE\":\"Armed Forces (AE)\",\"AP\":\"Armed Forces (AP)\",\"AS\":\"American Samoa\",\"GU\":\"Guam\",\"MP\":\"Northern Mariana Islands\",\"PR\":\"Puerto Rico\",\"UM\":\"US Minor Outlying Islands\",\"VI\":\"US Virgin Islands\"}}","plugin_url":"http:\/\/localhost\/wordpress\/wp-content\/plugins\/woocommerce","ajax_url":"\/wordpress\/wp-admin\/admin-ajax.php","ajax_loader_url":"http:\/\/localhost\/wordpress\/wp-content\/plugins\/woocommerce\/assets\/images\/ajax-loader@2x.gif","i18n_select_state_text":"Select an option\u2026","i18n_required_rating_text":"Please select a rating","i18n_no_matching_variations_text":"Sorry, no products matched your selection. Please choose a different combination.","i18n_required_text":"required","i18n_view_cart":"View Cart \u2192","review_rating_required":"yes","update_order_review_nonce":"05bdb2ed5f","apply_coupon_nonce":"b3df1861ef","option_guest_checkout":"yes","checkout_url":"\/wordpress\/wp-admin\/admin-ajax.php?action=woocommerce-checkout","is_checkout":"0","update_shipping_method_nonce":"c2a8e5799d","add_to_cart_nonce":"255d7844d0","cart_url":"http:\/\/localhost\/wordpress\/?page_id=92","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://localhost/wordpress/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=2.0.8'></script>
+<script type='text/javascript' src='http://localhost/wordpress/wp-content/plugins/woocommerce/assets/js/jquery-cookie/jquery.cookie.min.js?ver=1.3.1'></script>
+<script type='text/javascript' src='http://localhost/wordpress/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=2.0.8'></script>
+<script type='text/javascript' src='http://localhost/wordpress/wp-content/plugins/woocommerce/assets/js/jquery-placeholder/jquery.placeholder.min.js?ver=2.0.8'></script>
+	<script type="text/javascript">
+		(function() {
+			var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new RegExp('(^|\\s+)(no-)?'+cs+'(\\s+|$)');
+
+			request = true;
+
+			b[c] = b[c].replace( rcs, ' ' );
+			b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
+		}());
+	</script>
+			<div id="wpadminbar" class="nojq nojs" role="navigation">
+			<a class="screen-reader-shortcut" href="#wp-toolbar" tabindex="1">Skip to toolbar</a>
+			<div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Top navigation toolbar." tabindex="0">
+				<ul id="wp-admin-bar-root-default" class="ab-top-menu">
+		<li id="wp-admin-bar-wp-logo" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://localhost/wordpress/wp-admin/about.php" title="About WordPress"><span class="ab-icon"></span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-wp-logo-default" class="ab-submenu">
+		<li id="wp-admin-bar-about"><a class="ab-item"  href="http://localhost/wordpress/wp-admin/about.php">About WordPress</a>		</li></ul><ul id="wp-admin-bar-wp-logo-external" class="ab-sub-secondary ab-submenu">
+		<li id="wp-admin-bar-wporg"><a class="ab-item"  href="http://wordpress.org/">WordPress.org</a>		</li>
+		<li id="wp-admin-bar-documentation"><a class="ab-item"  href="http://codex.wordpress.org/">Documentation</a>		</li>
+		<li id="wp-admin-bar-support-forums"><a class="ab-item"  href="http://wordpress.org/support/">Support Forums</a>		</li>
+		<li id="wp-admin-bar-feedback"><a class="ab-item"  href="http://wordpress.org/support/forum/requests-and-feedback">Feedback</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-site-name" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://localhost/wordpress/wp-admin/">local</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-site-name-default" class="ab-submenu">
+		<li id="wp-admin-bar-dashboard"><a class="ab-item"  href="http://localhost/wordpress/wp-admin/">Dashboard</a>		</li></ul><ul id="wp-admin-bar-appearance" class="ab-submenu">
+		<li id="wp-admin-bar-themes"><a class="ab-item"  href="http://localhost/wordpress/wp-admin/themes.php">Themes</a>		</li>
+		<li id="wp-admin-bar-customize" class="hide-if-no-customize"><a class="ab-item"  href="http://localhost/wordpress/wp-admin/customize.php?url=http%3A%2F%2Flocalhost%2Fwordpress%2F%3Fpage_id%3D122">Customize</a>		</li>
+		<li id="wp-admin-bar-widgets"><a class="ab-item"  href="http://localhost/wordpress/wp-admin/widgets.php">Widgets</a>		</li>
+		<li id="wp-admin-bar-menus"><a class="ab-item"  href="http://localhost/wordpress/wp-admin/nav-menus.php">Menus</a>		</li>
+		<li id="wp-admin-bar-background"><a class="ab-item"  href="http://localhost/wordpress/wp-admin/themes.php?page=custom-background">Background</a>		</li>
+		<li id="wp-admin-bar-header"><a class="ab-item"  href="http://localhost/wordpress/wp-admin/themes.php?page=custom-header">Header</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-updates"><a class="ab-item"  href="http://localhost/wordpress/wp-admin/update-core.php" title="2 Plugin Updates"><span class="ab-icon"></span><span class="ab-label">2</span><span class="screen-reader-text">2 Plugin Updates</span></a>		</li>
+		<li id="wp-admin-bar-comments"><a class="ab-item"  href="http://localhost/wordpress/wp-admin/edit-comments.php" title="0 comments awaiting moderation"><span class="ab-icon"></span><span id="ab-awaiting-mod" class="ab-label awaiting-mod pending-count count-0">0</span></a>		</li>
+		<li id="wp-admin-bar-new-content" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://localhost/wordpress/wp-admin/post-new.php" title="Add New"><span class="ab-icon"></span><span class="ab-label">New</span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-new-content-default" class="ab-submenu">
+		<li id="wp-admin-bar-new-post"><a class="ab-item"  href="http://localhost/wordpress/wp-admin/post-new.php">Post</a>		</li>
+		<li id="wp-admin-bar-new-media"><a class="ab-item"  href="http://localhost/wordpress/wp-admin/media-new.php">Media</a>		</li>
+		<li id="wp-admin-bar-new-page"><a class="ab-item"  href="http://localhost/wordpress/wp-admin/post-new.php?post_type=page">Page</a>		</li>
+		<li id="wp-admin-bar-new-product"><a class="ab-item"  href="http://localhost/wordpress/wp-admin/post-new.php?post_type=product">Product</a>		</li>
+		<li id="wp-admin-bar-new-wpsc-product"><a class="ab-item"  href="http://localhost/wordpress/wp-admin/post-new.php?post_type=wpsc-product">Product</a>		</li>
+		<li id="wp-admin-bar-new-tribe_events"><a class="ab-item"  href="http://localhost/wordpress/wp-admin/post-new.php?post_type=tribe_events">Event</a>		</li>
+		<li id="wp-admin-bar-new-user"><a class="ab-item"  href="http://localhost/wordpress/wp-admin/user-new.php">User</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-edit"><a class="ab-item"  href="http://localhost/wordpress/wp-admin/post.php?post=122&#038;action=edit">Edit Page</a>		</li>
+		<li id="wp-admin-bar-slideshows-top_menu" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://localhost/wordpress/wp-admin/admin.php?page=easingsliderlite_edit_slideshow">Slideshow</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-slideshows-top_menu-default" class="ab-submenu">
+		<li id="wp-admin-bar-edit-slideshow-sub_menu"><a class="ab-item"  href="http://localhost/wordpress/wp-admin/admin.php?page=easingsliderlite_edit_slideshow">Edit Slideshow</a>		</li>
+		<li id="wp-admin-bar-customizer-sub_menu"><a class="ab-item"  href="http://localhost/wordpress/wp-admin/admin.php?page=easingsliderlite_customizer">Customize</a>		</li>
+		<li id="wp-admin-bar-edit-settings-sub_menu"><a class="ab-item"  href="http://localhost/wordpress/wp-admin/admin.php?page=easingsliderlite_edit_settings">Settings</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-tribe-events" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://localhost/wordpress?post_type=tribe_events">Events</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-tribe-events-group" class="ab-submenu">
+		<li id="wp-admin-bar-tribe-events-view-calendar"><a class="ab-item"  href="http://localhost/wordpress?post_type=tribe_events">View Calendar</a>		</li>
+		<li id="wp-admin-bar-tribe-events-add-event"><a class="ab-item"  href="http://localhost/wordpress/wp-admin/post-new.php?post_type=tribe_events">Add Event</a>		</li>
+		<li id="wp-admin-bar-tribe-events-edit-events"><a class="ab-item"  href="http://localhost/wordpress/wp-admin/edit.php?post_type=tribe_events">Edit Events</a>		</li></ul><div id="wp-admin-bar-tribe-events-add-ons-group-container" class="ab-group-container"></div><ul id="wp-admin-bar-tribe-events-settings-group" class="ab-submenu">
+		<li id="wp-admin-bar-tribe-events-settings" class="menupop"><div class="ab-item ab-empty-item"  aria-haspopup="true">Settings</div><div class="ab-sub-wrapper"><ul id="wp-admin-bar-tribe-events-settings-default" class="ab-submenu">
+		<li id="wp-admin-bar-tribe-events-settings-sub"><a class="ab-item"  href="http://localhost/wordpress/wp-admin/edit.php?post_type=tribe_events&#038;page=tribe-events-calendar">Events</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-tribe-events-help"><a class="ab-item"  href="http://localhost/wordpress/wp-admin/edit.php?post_type=tribe_events&#038;page=tribe-events-calendar&#038;tab=help">Help</a>		</li>
+		<li id="wp-admin-bar-tribe-events-app-shop"><a class="ab-item"  href="http://localhost/wordpress/wp-admin/edit.php?post_type=tribe_events&#038;page=tribe-app-shop">Event Add-Ons</a>		</li></ul></div>		</li></ul><ul id="wp-admin-bar-top-secondary" class="ab-top-secondary ab-top-menu">
+		<li id="wp-admin-bar-search" class="admin-bar-search"><div class="ab-item ab-empty-item" tabindex="-1"><form action="http://localhost/wordpress/" method="get" id="adminbarsearch"><input class="adminbar-input" name="s" id="adminbar-search" type="text" value="" maxlength="150" /><input type="submit" class="adminbar-button" value="Search"/></form></div>		</li>
+		<li id="wp-admin-bar-my-account" class="menupop with-avatar"><a class="ab-item"  aria-haspopup="true" href="http://localhost/wordpress/members/admin/profile/edit/" title="My Account">Howdy, admin<img src="http://gravatar.com/avatar/8044fcf5c6f70cb3a864e4ec606142ee?d=http://localhost/wordpress/wp-content/plugins/buddypress/bp-core/images/mystery-man.jpg&amp;s=16&amp;r=G" class="avatar user-1-avatar avatar-16 photo" width="16" height="16" alt="Avatar of admin" /></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-user-actions" class="ab-submenu">
+		<li id="wp-admin-bar-user-info"><a class="ab-item" tabindex="-1" href="http://localhost/wordpress/members/admin/profile/edit/"><img src="http://gravatar.com/avatar/8044fcf5c6f70cb3a864e4ec606142ee?d=http://localhost/wordpress/wp-content/plugins/buddypress/bp-core/images/mystery-man.jpg&amp;s=64&amp;r=G" class="avatar user-1-avatar avatar-64 photo" width="64" height="64" alt="Avatar of admin" /><span class='display-name'>admin</span></a>		</li>
+		<li id="wp-admin-bar-edit-profile"><a class="ab-item"  href="http://localhost/wordpress/members/admin/profile/edit/">Edit My Profile</a>		</li>
+		<li id="wp-admin-bar-logout"><a class="ab-item"  href="http://localhost/wordpress/wp-login.php?action=logout&#038;_wpnonce=e99f2cd5de">Log Out</a>		</li></ul><ul id="wp-admin-bar-my-account-buddypress" class="ab-sub-secondary ab-submenu">
+		<li id="wp-admin-bar-my-account-activity" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://localhost/wordpress/members/admin/activity/">Activity</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-my-account-activity-default" class="ab-submenu">
+		<li id="wp-admin-bar-my-account-activity-mentions"><a class="ab-item"  href="http://localhost/wordpress/members/admin/activity/mentions/">Mentions</a>		</li>
+		<li id="wp-admin-bar-my-account-activity-personal"><a class="ab-item"  href="http://localhost/wordpress/members/admin/activity/">Personal</a>		</li>
+		<li id="wp-admin-bar-my-account-activity-favorites"><a class="ab-item"  href="http://localhost/wordpress/members/admin/activity/favorites/">Favorites</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-my-account-xprofile" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://localhost/wordpress/members/admin/profile/">Profile</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-my-account-xprofile-default" class="ab-submenu">
+		<li id="wp-admin-bar-my-account-xprofile-public"><a class="ab-item"  href="http://localhost/wordpress/members/admin/profile/public/">View</a>		</li>
+		<li id="wp-admin-bar-my-account-xprofile-edit"><a class="ab-item"  href="http://localhost/wordpress/members/admin/profile/edit/">Edit</a>		</li>
+		<li id="wp-admin-bar-my-account-xprofile-change-avatar"><a class="ab-item"  href="http://localhost/wordpress/members/admin/profile/change-avatar/">Change Avatar</a>		</li></ul></div>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-bp-notifications" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://localhost/wordpress/members/admin/"><span id="ab-pending-notifications" class="count no-alert">0</span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-bp-notifications-default" class="ab-submenu">
+		<li id="wp-admin-bar-no-notifications"><a class="ab-item"  href="http://localhost/wordpress/members/admin/">No new notifications</a>		</li></ul></div>		</li></ul>			</div>
+			<a class="screen-reader-shortcut" href="http://localhost/wordpress/wp-login.php?action=logout&#038;_wpnonce=e99f2cd5de">Log Out</a>
+		</div>
+
+		</body>
+</html>

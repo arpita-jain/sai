@@ -1,0 +1,61 @@
+/* popup_box DIV-Styles*/
+ #popup_box{height:auto!important;}
+#popup_box_rating{
+ background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #888888;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 5px #A3A3A3;
+    color: #777777;
+    display: none;
+    font-family: 'myriad_pro_lightregular';
+    font-size: 13px;
+    height: auto;
+    left: 33%;
+    padding: 15px;
+    position: fixed;
+    text-transform: uppercase;
+    top: 20%;
+    width: 25%;
+    z-index: 100;
+}
+
+/* This is for the positioning of the Close Link */
+#popupBoxClose_rating {
+	font-size:10px;  
+	line-height:15px;  
+	right:-15px;  
+	top:5px;  
+	position:absolute;  
+	color:#6fa5e2;  
+	font-weight:500;
+	padding: 0px !important;
+	background: none !important;
+}
+.show_rating p {
+    color: #707070;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: left;
+	margin-top:0px;
+}
+.show_rating span {
+    border-bottom: 1px dotted #CCCCCC;
+    color: #333333;
+    float: left;
+    font-size: 13px;
+    font-style: italic;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-bottom: 11px;
+    width: 96%;
+}
+.show_rating img{ float:left;}
+.boxes .show_rating{padding: 5px 10px;}
+.boxes .show_rating span{ width:100%;}
+.show_rating{padding:5px;}
+#popupBoxClose img{ width:50%;}
+@media only screen and (max-width:568px) 
+{
+	 #popup_box,#popup_box_rating{width:55%; left:23%;}
+	
+}

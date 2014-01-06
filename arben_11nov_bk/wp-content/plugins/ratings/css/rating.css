@@ -1,0 +1,39 @@
+#star
+{	display: -webkit-inline-box;
+        display: -moz-inline-box;
+        list-style: none outside none;
+}
+.comments
+{
+        width: 250px;
+        height: 150px;
+}
+.star_img
+{
+        /*width: 30px;
+        height: 30px;*/
+}
+#star li
+{
+        margin-right:1px;
+        margin-left: 1px;
+}
+#comments h5
+{
+        margin: 0px;
+}
+#star_comments_container div#rating
+{
+        height:auto; margin-bottom:1px;
+}
+#popup_box_rating input[type="submit"]
+{
+	background:#22B4EB;
+    border: 1px solid #1FA4D6;
+    border-radius: 2px 2px 2px 2px;
+    color: #FFFFFF;
+    margin-top: 12px;
+    padding: 5px;
+	cursor:pointer;
+}
+#popup_box_rating textarea{ width:100%; border:1px solid #ccc;}

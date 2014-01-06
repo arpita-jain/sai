@@ -1,0 +1,187 @@
+#buatp_setting_page_wraper form input[type='text'],#buatp_setting_page_wraper form select {
+    min-width: 150px;
+}
+
+#buatp_hidden_fields {
+    display: none;
+}
+
+#buatp_members ul.item-list li img.avatar{
+    float: left;
+    margin-right: 15px;
+}
+
+#buatp_members #buatp_loop_fields, #buatp_profile_proview .mini_info #buatp_loop_fields{
+    text-align: left;
+    position: absolute;
+}
+ #buatp_profile_proview .mini_info #buatp_loop_fields{ 
+     margin-left: 15px;
+ }
+#buatp_members .buatp_loop_column{
+    float: left;
+    margin-right: 30px;
+    padding-right: 30px;
+}
+
+
+#buatp_members #buatp_loop_fields p {
+    margin: 0;
+}
+#buatp_members ul.item-list li div.action {
+    width: 75%;
+}
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////
+//                                  List View Style
+///////////////////////////////////////////////////////////////////////////////////////*/
+
+
+#buatp_members.list_view ul.item-list li div.item-avatar {
+    float: none;
+    text-align: center;
+}
+
+
+#buatp_members.list_view ul.item-list li .avatar {
+    height: 50px;
+    width: 50px;
+
+}
+
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////
+//                                  Grid View Style
+///////////////////////////////////////////////////////////////////////////////////////*/
+
+div#buat_view_mode {
+    float: right;
+    margin: 3px 0 0 8px;
+}
+
+div#buat_view_mode img {
+    padding: 3px;
+    cursor: pointer;
+}
+
+div#buat_view_mode img.current_view,div#buat_view_mode img:hover {
+    background: #dcdcdc
+}
+
+#buatp_members ul {
+    list-style: none;
+}
+
+#buatp_members.grid_view ul.item-list li{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-top: 15px;
+    margin-right: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+    overflow: hidden;
+}
+
+#buatp_members.grid_view ul.item-list li div.action {
+    display: none;
+}
+
+#buatp_members.grid_view ul.item-list li div.item-avatar {
+    float: none;
+    text-align: center;
+}
+
+
+#buatp_members.grid_view ul.item-list li .avatar {
+    height: 120px;
+    width: 120px;
+    margin: 0;
+    float: none;
+}
+
+#buatp_members.grid_view ul.item-list .item {
+    margin: 0;
+    text-align: center;
+}
+
+#buatp_members.grid_view ul.item-list li div.item-title, ul.item-list li h4 {
+    width: 100%;
+    margin: 0;
+}
+
+#buatp_members.grid_view div#pag-bottom.pagination {
+    clear: both
+}
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////
+//                                  Tool Tip Style
+///////////////////////////////////////////////////////////////////////////////////////*/
+#profilePreviewContainer
+{
+    position:absolute;
+    left:0;
+    top:0;
+    display:none;
+    z-index: 20000;
+}
+
+#buatp_profile_proview
+{
+    background-color: #bbb;
+    min-width: 275px;
+    min-height: 50px;
+    padding: 20px;
+    border: 1px solid #555;
+    border-radius: 10px;
+}
+
+#buatp_profile_proview .avatar_box{
+    display: inline-block;
+    float: left;
+}
+
+#buatp_profile_proview .avatar_box img.avatar {
+    width: 100px;
+    height: 100px;
+}
+
+#buatp_profile_proview .avatar_box .meta_box {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    clear: both
+}
+
+#buatp_profile_proview .mini_info {
+    margin-left: 20px;
+    display: inline-block;
+}
+
+#buatp_profile_proview .mini_info #buatp_loop_fields .buatp_loop_column p {
+    margin: 0;
+}
+
+span.fname, span.fval {
+    display: inline-block;
+}
+span.fname{
+    min-width: 100px;
+}
+
+
+.buatp_content_error {
+    width: 100%;
+    border: 1px solid #000;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.buatp_content_error p {
+    padding: 40px;
+}
